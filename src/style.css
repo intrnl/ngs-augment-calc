@@ -68,12 +68,14 @@ td input {
 x-app {
 	display: grid;
 	grid-template-areas: 'header header' 'sidebar display';
+	grid-template-columns: 280px minmax(0, 1fr);
 	gap: 16px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 680px) {
 	x-app {
 		grid-template-areas: 'header' 'sidebar' 'display';
+		grid-template-columns: unset;
 	}
 }
 
@@ -90,6 +92,7 @@ x-app {
 
 .display {
 	grid-area: display;
+	table-layout: fixed;
 }
 
 .search {
