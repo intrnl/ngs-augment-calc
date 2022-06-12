@@ -1,0 +1,12 @@
+{
+	"type": "module",
+	"name": "ngs-augment-calc",
+	"scripts": {
+		"dev": "NODE_ENV=development node ./scripts/dev.js",
+		"build": "NODE_ENV=production node ./scripts/build.js"
+	},
+	"devDependencies": {
+		"@intrnl/esbuild-plugin-build-analysis": "^0.1.2",
+		"esbuild": "^0.14.43"
+	}
+}
