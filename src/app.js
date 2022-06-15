@@ -1,11 +1,11 @@
 import './lib/x-action.js';
-import { query } from './lib/x-controller';
+import { query } from './lib/x-controller.js';
 
 import './style.css';
 
 // data ver 7.216
 // https://docs.google.com/spreadsheets/d/1ShT8I1wj9mGh-hGXqF0j9tvUU_jkYLvGd4gPZjNzRpo/edit?usp=sharing
-import data from './data.json';
+import data from './data.js';
 
 
 class AppElement extends HTMLElement {
