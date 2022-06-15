@@ -149,7 +149,7 @@ x-app {
 
 .search .autocomplete li[data-bp]::after {
 	color: GrayText;
-	content: ' (' attr(data-bp) ')';
+	content: ' (' attr(data-bp) ' BP)';
 }
 
 .search .autocomplete li.selected,
