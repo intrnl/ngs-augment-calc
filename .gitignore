@@ -1,2 +1,9 @@
 node_modules/
 /dist/_assets/
+
+.pnpm-*.log
+.npm-*.log
+.yarn-*.log
+pnpm-*.log
+npm-*.log
+yarn-*.log
