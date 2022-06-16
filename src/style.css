@@ -94,6 +94,12 @@ x-app {
 	grid-area: display;
 	table-layout: fixed;
 }
+.display td {
+	color: GrayText;
+}
+.display .highlight {
+	color: CanvasText;
+}
 
 .search {
 	position: relative;

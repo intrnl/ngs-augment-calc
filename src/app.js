@@ -44,14 +44,13 @@ class AppElement extends HTMLElement {
 
 		for (const key in scores) {
 			const unknown = unknowns[key];
-			let score = scores[key];
 
-			if ((/pot|resist/).test(key)) {
-				score = score.toFixed(2) + '%';
-			}
+			const score = scores[key];
+			const formatted = (/pot|resist/).test(key) ? `${score.toFixed(2)}%` : score;
 
 			const field = document.getElementById(key);
-			field.textContent = `${score}${unknown ? ' ?' : ''}`;
+			field.classList.toggle('highlight', score || unknown);
+			field.textContent = `${formatted}${unknown ? ' ?' : ''}`;
 		}
 
 		const container = this.augmentsContainer;
