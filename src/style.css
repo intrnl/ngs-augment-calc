@@ -94,6 +94,7 @@ x-app {
 	grid-area: display;
 	table-layout: fixed;
 }
+.display th,
 .display td {
 	color: GrayText;
 }

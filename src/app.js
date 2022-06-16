@@ -49,7 +49,12 @@ class AppElement extends HTMLElement {
 			const formatted = (/pot|resist/).test(key) ? `${score.toFixed(2)}%` : score;
 
 			const field = document.getElementById(key);
-			field.classList.toggle('highlight', score || unknown);
+			const header = field.previousElementSibling;
+
+			const isHighlighted = score || unknown;
+
+			header.classList.toggle('highlight', isHighlighted);
+			field.classList.toggle('highlight', isHighlighted);
 			field.textContent = `${formatted}${unknown ? ' ?' : ''}`;
 		}
 
