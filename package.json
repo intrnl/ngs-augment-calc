@@ -3,12 +3,45 @@
 	"name": "ngs-augment-calc",
 	"scripts": {
 		"dev": "NODE_ENV=development node ./scripts/dev.js",
-		"build": "NODE_ENV=production node ./scripts/build.js",
-		"publish": "wrangler pages publish dist/"
+		"build": "wireit",
+		"publish": "wireit"
+	},
+	"wireit": {
+		"build": {
+			"command": "NODE_ENV=production node ./scripts/build.js",
+			"clean": "if-file-deleted",
+			"files": [
+				"src/**/*",
+				"jsconfig.json",
+				"esbuild.config.js"
+			],
+			"output": [
+				"dist/_assets"
+			],
+			"packageLocks": [
+				"pnpm-lock.yaml"
+			]
+		},
+		"publish": {
+			"command": "wrangler pages publish dist/",
+			"dependencies": [
+				"build"
+			],
+			"files": [
+				"src/**/*",
+				"jsconfig.json",
+				"esbuild.config.js"
+			],
+			"output": [],
+			"packageLocks": [
+				"pnpm-lock.yaml"
+			]
+		}
 	},
 	"devDependencies": {
 		"@intrnl/esbuild-plugin-build-analysis": "^0.1.2",
 		"esbuild": "^0.14.43",
+		"wireit": "^0.7.1",
 		"wrangler": "^2.0.16"
 	}
 }
