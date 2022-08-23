@@ -11572,7 +11572,7 @@ export default {
 	},
 	super_might_i: {
 		name: 'Super Might I',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 0,
 		mel_pot: 2.25,
@@ -11601,7 +11601,7 @@ export default {
 	},
 	super_might_i_s: {
 		name: 'Super Might I S',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 0,
 		mel_pot: 2.25,
@@ -11630,7 +11630,7 @@ export default {
 	},
 	super_precision_i: {
 		name: 'Super Precision I',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 0,
 		mel_pot: 0,
@@ -11659,7 +11659,7 @@ export default {
 	},
 	super_precision_i_s: {
 		name: 'Super Precision I S',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 0,
 		mel_pot: 0,
@@ -11688,7 +11688,7 @@ export default {
 	},
 	super_spimel_i: {
 		name: 'Super Spimel I',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 5,
 		mel_pot: 2,
@@ -11717,7 +11717,7 @@ export default {
 	},
 	super_spimel_i_s: {
 		name: 'Super Spimel I S',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 5,
 		mel_pot: 2,
@@ -11746,7 +11746,7 @@ export default {
 	},
 	super_spira_i: {
 		name: 'Super Spira I',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 5,
 		mel_pot: 0,
@@ -11775,7 +11775,7 @@ export default {
 	},
 	super_spira_i_s: {
 		name: 'Super Spira I S',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 5,
 		mel_pot: 0,
@@ -11804,7 +11804,7 @@ export default {
 	},
 	super_spitech_i: {
 		name: 'Super Spitech I',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 5,
 		mel_pot: 0,
@@ -11833,7 +11833,7 @@ export default {
 	},
 	super_spitech_i_s: {
 		name: 'Super Spitech I S',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 5,
 		mel_pot: 0,
@@ -11862,7 +11862,7 @@ export default {
 	},
 	super_stamel_i: {
 		name: 'Super Stamel I',
-		bp: '?',
+		bp: 8,
 		hp: 15,
 		pp: 0,
 		mel_pot: 2,
@@ -11891,7 +11891,7 @@ export default {
 	},
 	super_stamel_i_s: {
 		name: 'Super Stamel I S',
-		bp: '?',
+		bp: 8,
 		hp: 15,
 		pp: 0,
 		mel_pot: 2,
@@ -11920,7 +11920,7 @@ export default {
 	},
 	super_stara_i: {
 		name: 'Super Stara I',
-		bp: '?',
+		bp: 8,
 		hp: 15,
 		pp: 0,
 		mel_pot: 0,
@@ -11949,7 +11949,7 @@ export default {
 	},
 	super_stara_i_s: {
 		name: 'Super Stara I S',
-		bp: '?',
+		bp: 8,
 		hp: 15,
 		pp: 0,
 		mel_pot: 0,
@@ -11978,7 +11978,7 @@ export default {
 	},
 	super_statech_i: {
 		name: 'Super Statech I',
-		bp: '?',
+		bp: 8,
 		hp: 15,
 		pp: 0,
 		mel_pot: 0,
@@ -12007,7 +12007,7 @@ export default {
 	},
 	super_statech_i_s: {
 		name: 'Super Statech I S',
-		bp: '?',
+		bp: 8,
 		hp: 15,
 		pp: 0,
 		mel_pot: 0,
@@ -12036,7 +12036,7 @@ export default {
 	},
 	super_technique_i: {
 		name: 'Super Technique I',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 0,
 		mel_pot: 0,
@@ -12065,7 +12065,7 @@ export default {
 	},
 	super_technique_i_s: {
 		name: 'Super Technique I S',
-		bp: '?',
+		bp: 8,
 		hp: 0,
 		pp: 0,
 		mel_pot: 0,
