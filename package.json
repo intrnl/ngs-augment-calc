@@ -11,12 +11,12 @@
 			"command": "NODE_ENV=production node ./scripts/build.js",
 			"clean": "if-file-deleted",
 			"files": [
-				"src/**/*",
+				"src/**",
 				"jsconfig.json",
 				"esbuild.config.js"
 			],
 			"output": [
-				"dist/_assets"
+				"dist/_assets/**"
 			],
 			"packageLocks": [
 				"pnpm-lock.yaml"
@@ -28,9 +28,7 @@
 				"build"
 			],
 			"files": [
-				"src/**/*",
-				"jsconfig.json",
-				"esbuild.config.js"
+				"dist/**"
 			],
 			"output": [],
 			"packageLocks": [
