@@ -23,12 +23,13 @@
 			]
 		},
 		"publish": {
-			"command": "wrangler pages publish dist/",
+			"command": "netlifydd deploy dist/",
 			"dependencies": [
 				"build"
 			],
 			"files": [
-				"dist/**"
+				"dist/**",
+				"netlifydd.json"
 			],
 			"output": [],
 			"packageLocks": [
@@ -38,8 +39,8 @@
 	},
 	"devDependencies": {
 		"@intrnl/esbuild-plugin-build-analysis": "^0.1.2",
+		"@intrnl/netlifydd": "^0.1.1",
 		"esbuild": "^0.14.43",
-		"wireit": "^0.7.1",
-		"wrangler": "^2.0.16"
+		"wireit": "^0.7.1"
 	}
 }
