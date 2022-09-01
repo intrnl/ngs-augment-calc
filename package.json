@@ -39,8 +39,8 @@
 	},
 	"devDependencies": {
 		"@intrnl/esbuild-plugin-build-analysis": "^0.1.2",
-		"@intrnl/netlifydd": "^0.1.1",
-		"esbuild": "^0.14.43",
+		"@intrnl/netlifydd": "^0.1.4",
+		"esbuild": "^0.15.6",
 		"wireit": "^0.7.1"
 	}
 }
