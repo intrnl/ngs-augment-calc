@@ -46,7 +46,9 @@ class AppElement extends HTMLElement {
 			const unknown = unknowns[key];
 
 			const score = scores[key];
-			const formatted = (/pot|resist/).test(key) ? `${score.toFixed(2)}%` : score;
+			const formatted = (/pot|resist|crit|drop/).test(key)
+				? `${score.toFixed(2)}%`
+				: score;
 
 			const field = document.getElementById(key);
 			const header = field.previousElementSibling;
@@ -340,6 +342,10 @@ function calculateStats (augments) {
 		let obj = data[augment];
 
 		for (let key in scores) {
+			if (!(key in obj)) {
+				continue;
+			}
+
 			let value = obj[key];
 
 			if (value === '?') {
@@ -382,5 +388,8 @@ function createStatsObject (default_value) {
 		dark_pot: default_value,
 		daytime_pot: default_value,
 		nighttime_pot: default_value,
+		seasonal_pot: default_value,
+		seasonal_crit: default_value,
+		seasonal_drop: default_value,
 	};
 }
