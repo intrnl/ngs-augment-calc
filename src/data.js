@@ -10412,7 +10412,7 @@ export default {
 	},
 	sezun_lunafiv: {
 		name: 'Sezun Lunafiv',
-		bp: '?',
+		bp: 10,
 		hp: 0,
 		pp: 0,
 		mel_pot: 0,
@@ -10438,6 +10438,9 @@ export default {
 		dark_pot: 0,
 		daytime_pot: 0,
 		nighttime_pot: 0,
+		seasonal_pot: 15,
+		seasonal_crit: 20,
+		seasonal_drop: 25,
 	},
 	shock_ward_i: {
 		name: 'Shock Ward I',
