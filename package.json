@@ -3,44 +3,10 @@
 	"name": "ngs-augment-calc",
 	"scripts": {
 		"dev": "NODE_ENV=development node ./scripts/dev.js",
-		"build": "wireit",
-		"publish": "wireit"
-	},
-	"wireit": {
-		"build": {
-			"command": "NODE_ENV=production node ./scripts/build.js",
-			"clean": "if-file-deleted",
-			"files": [
-				"src/**",
-				"jsconfig.json",
-				"esbuild.config.js"
-			],
-			"output": [
-				"dist/_assets/**"
-			],
-			"packageLocks": [
-				"pnpm-lock.yaml"
-			]
-		},
-		"publish": {
-			"command": "scripts/publish.sh",
-			"dependencies": [
-				"build"
-			],
-			"files": [
-				"dist/**",
-				"netlifydd.json"
-			],
-			"output": [],
-			"packageLocks": [
-				"pnpm-lock.yaml"
-			]
-		}
+		"build": "NODE_ENV=production node ./scripts/build.js",
+		"publish": "rm -r dist/_assets; pnpm run build; scripts/publish.sh"
 	},
 	"devDependencies": {
-		"@intrnl/esbuild-plugin-build-analysis": "^0.1.2",
-		"@intrnl/netlifydd": "^0.1.5",
-		"esbuild": "^0.15.7",
-		"wireit": "^0.7.1"
+		"esbuild": "^0.15.7"
 	}
 }
