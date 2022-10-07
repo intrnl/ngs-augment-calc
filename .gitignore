@@ -9,4 +9,4 @@ pnpm-*.log
 npm-*.log
 yarn-*.log
 
-netlifydd.json
+/data.json

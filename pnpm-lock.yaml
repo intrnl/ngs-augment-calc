@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   esbuild: ^0.15.7
+  json5: ^2.2.1
 
 devDependencies:
   esbuild: 0.15.7
+  json5: 2.2.1
 
 packages:
 
@@ -224,4 +226,10 @@ packages:
       esbuild-windows-32: 0.15.7
       esbuild-windows-64: 0.15.7
       esbuild-windows-arm64: 0.15.7
+    dev: true
+
+  /json5/2.2.1:
+    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
+    engines: {node: '>=6'}
+    hasBin: true
     dev: true
