@@ -8,9 +8,10 @@
 
 body {
 	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.35;
 	max-width: 768px;
 	display: flex;
-	font-size: 16px;
 	flex-direction: column;
 	margin: 0 auto;
 	padding: 16px;
