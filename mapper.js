@@ -61,9 +61,7 @@ function convert (nstr) {
 		return nstr;
 	}
 
-	if (nstr.endsWith('%')) {
-		nstr = nstr.slice(0, -1);
-	}
+	nstr = nstr.replace(/%$|,/, '');
 
 	const nmbr = parseFloat(nstr);
 	return nmbr === 0 ? undefined : nmbr;

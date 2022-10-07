@@ -1920,7 +1920,7 @@ export default {
 	},
 	hi_perio: {
 		name: 'Hi Perio',
-		exp_grind: 5,
+		exp_grind: 5000,
 	},
 	ice_exploit_i: {
 		name: 'Ice Exploit I',
