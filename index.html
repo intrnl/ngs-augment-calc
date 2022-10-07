@@ -9,7 +9,14 @@
 	</head>
 	<body>
 		<x-app>
-			<h3 class='header'>NGS Augment Calculator</h3>
+			<header class='header'>
+				<h3 class='title'>NGS Augment Calculator</h3>
+
+				<div class='flex-spacer'></div>
+
+				<span class='commit-hash' x-target='x-app.commitHash'></span>
+				<a href='https://codeberg.org/intrnl/ngs-augment-calc'>source code</a>
+			</header>
 
 			<div class='sidebar'>
 				<div class='search' x-action='focusin:x-app#handleSearchFocusIn focusout:x-app#handleSearchFocusOut'>
