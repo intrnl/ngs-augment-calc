@@ -313,7 +313,7 @@ class AppElement extends HTMLElement {
 			li.setAttribute('x-action', 'click:x-app#handleSearchItemClick');
 
 			li.textContent = `${item.name}`;
-			li.dataset.bp = item.bp;
+			li.dataset.bp = item.bp || '0';
 			li.dataset.value = key;
 			li.dataset.idx = idx++;
 
