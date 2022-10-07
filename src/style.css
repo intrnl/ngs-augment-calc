@@ -10,6 +10,7 @@ body {
 	font-family: sans-serif;
 	max-width: 768px;
 	display: flex;
+	font-size: 16px;
 	flex-direction: column;
 	margin: 0 auto;
 	padding: 16px;
@@ -91,6 +92,7 @@ x-app {
 
 .commit-hash {
 	color: GrayText;
+	font-family: monospace;
 }
 
 .flex-spacer {
