@@ -3,7 +3,7 @@ import { query } from './lib/x-controller.js';
 
 import './style.css';
 
-// data ver 9.21
+// data ver 9.43
 // https://docs.google.com/spreadsheets/d/1ShT8I1wj9mGh-hGXqF0j9tvUU_jkYLvGd4gPZjNzRpo/edit?usp=sharing
 import data from './data.js';
 
