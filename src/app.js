@@ -17,6 +17,8 @@ class AppElement extends HTMLElement {
 	augmentsContainer = query(this, 'augmentsContainer');
 	/** @type {HTMLFormElement} */
 	displayContainer = query(this, 'displayContainer');
+	/** @type {HTMLSpanElement} */
+	commitHash = query(this, 'commitHash');
 
 	/** @type {HTMLLIElement[]} */
 	searchResults = [];
@@ -32,6 +34,8 @@ class AppElement extends HTMLElement {
 		const augments = searchParams.get('augments')?.split(',') || [];
 
 		this.augments = augments;
+
+		this.commitHash.textContent = COMMIT_HASH;
 
 		this.calculate();
 		this._initializeSearch();

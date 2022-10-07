@@ -23,6 +23,7 @@ const internal = await esbuild.serve({
 	sourcemap: true,
 	define: {
 		'DEV': 'true',
+		'COMMIT_HASH': '"DEV"',
 	},
 	plugins: [
 		...config.plugins || [],

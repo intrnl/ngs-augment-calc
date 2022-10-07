@@ -80,7 +80,28 @@ x-app {
 }
 
 .header {
+	display: flex;
+	align-items: center;
+	gap: 16px;
 	grid-area: header;
+}
+.header .title {
+	display: inline-block;
+}
+
+.commit-hash {
+	color: GrayText;
+}
+
+.flex-spacer {
+	flex-grow: 1;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 .sidebar {
