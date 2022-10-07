@@ -83,12 +83,23 @@ x-app {
 
 .header {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	gap: 16px;
+	gap: 4px 16px;
 	grid-area: header;
 }
 .header .title {
 	display: inline-block;
+}
+
+@media (max-width: 680px) {
+	.header .title {
+		flex-basis: 100%;
+	}
+
+	.header .flex-spacer {
+		display: none;
+	}
 }
 
 .commit-hash {
