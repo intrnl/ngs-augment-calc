@@ -1,3 +1,3 @@
 # NGS Augment Calculator
 
-![image](https://user-images.githubusercontent.com/20620901/174115070-ff7635b0-f371-4ae8-a285-b8ba542ecde0.png)
+![Screenshot](https://codeberg.org/attachments/38a59a0a-6785-4070-8098-a0a5a09833f4)
