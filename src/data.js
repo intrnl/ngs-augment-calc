@@ -1064,7 +1064,7 @@ export default {
 	},
 	crocys_soul_iv: {
 		name: 'Crocys Soul IV',
-		bp: '?',
+		bp: 11,
 		hp: 10,
 		pp: 3,
 		rng_pot: 3,
@@ -1108,7 +1108,7 @@ export default {
 	},
 	daityl_soul_iv: {
 		name: 'Daityl Soul IV',
-		bp: '?',
+		bp: 11,
 		pp: 5,
 		mel_pot: 3,
 	},
@@ -1386,7 +1386,7 @@ export default {
 	},
 	dust_soul_iv: {
 		name: 'Dust Soul IV',
-		bp: '?',
+		bp: 11,
 		hp: 15,
 		mel_pot: 3,
 	},
@@ -1443,7 +1443,7 @@ export default {
 	},
 	eradi_soul_iv: {
 		name: 'Eradi Soul IV',
-		bp: '?',
+		bp: 11,
 		hp: 10,
 		pp: 4,
 		mel_pot: 2.75,
@@ -1684,7 +1684,7 @@ export default {
 	},
 	frostyl_soul_iv: {
 		name: 'Frostyl Soul IV',
-		bp: '?',
+		bp: 11,
 		hp: 10,
 		pp: 3,
 		mel_pot: 3,
@@ -1742,7 +1742,7 @@ export default {
 	},
 	gigas_might_iv: {
 		name: 'Gigas Might IV',
-		bp: '?',
+		bp: 11,
 		hp: 20,
 		mel_pot: 3,
 	},
@@ -1784,7 +1784,7 @@ export default {
 	},
 	gigas_precision_iv: {
 		name: 'Gigas Precision IV',
-		bp: '?',
+		bp: 11,
 		hp: 20,
 		rng_pot: 3,
 	},
@@ -1826,7 +1826,7 @@ export default {
 	},
 	gigas_technique_iv: {
 		name: 'Gigas Technique IV',
-		bp: '?',
+		bp: 11,
 		hp: 20,
 		tec_pot: 3,
 	},
@@ -2250,7 +2250,7 @@ export default {
 	},
 	nex_soul_iv: {
 		name: 'Nex Soul IV',
-		bp: '?',
+		bp: 11,
 		pp: 5,
 		tec_pot: 3,
 	},
@@ -2357,7 +2357,7 @@ export default {
 	},
 	pettas_soul_iv: {
 		name: 'Pettas Soul IV',
-		bp: '?',
+		bp: 11,
 		pp: 5,
 		rng_pot: 3,
 	},
@@ -2464,7 +2464,7 @@ export default {
 	},
 	ragras_soul_iv: {
 		name: 'Ragras Soul IV',
-		bp: '?',
+		bp: 11,
 		hp: 15,
 		rng_pot: 3,
 	},
@@ -2548,7 +2548,7 @@ export default {
 	},
 	renus_soul_iv: {
 		name: 'Renus Soul IV',
-		bp: '?',
+		bp: 11,
 		hp: 15,
 		tec_pot: 3,
 	},
@@ -3182,7 +3182,7 @@ export default {
 	},
 	vardi_soul_iv: {
 		name: 'Vardi Soul IV',
-		bp: '?',
+		bp: 11,
 		hp: 25,
 		mel_pot: 2.75,
 		rng_pot: 2.75,
