@@ -5,7 +5,7 @@ import './style.css';
 
 // data ver 9.54
 // https://docs.google.com/spreadsheets/d/1ShT8I1wj9mGh-hGXqF0j9tvUU_jkYLvGd4gPZjNzRpo/edit?usp=sharing
-import data from './data.js';
+const { default: data } = await import('./data.js');
 
 
 class AppElement extends HTMLElement {
