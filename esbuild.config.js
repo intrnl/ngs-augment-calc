@@ -4,7 +4,6 @@ import * as esbuild from 'esbuild';
 export let config = {
 	entryPoints: ['src/app.js'],
 	entryNames: 'app',
-	chunkNames: '[name]',
 	outdir: 'dist/_assets',
 	publicPath: '/_assets/',
 
