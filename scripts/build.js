@@ -21,6 +21,7 @@ await esbuild.build({
 	],
 
 	define: {
+		'DEV': 'false',
 		'COMMIT_HASH': `"${COMMIT_HASH.slice(0, 6)}"`,
 	},
 });
