@@ -7,14 +7,14 @@ export default {
 	},
 	addi_deftmelra: {
 		name: 'Addi Deftmelra',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		rng_pot: 3,
 		pot_floor: 2.75,
 	},
 	addi_deftmeltech: {
 		name: 'Addi Deftmeltech',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		tec_pot: 3,
 		pot_floor: 2.75,
@@ -27,14 +27,14 @@ export default {
 	},
 	addi_deftmelra_s: {
 		name: 'Addi Deftmelra S',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		rng_pot: 3,
 		pot_floor: 2.75,
 	},
 	addi_deftmeltech_s: {
 		name: 'Addi Deftmeltech S',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		tec_pot: 3,
 		pot_floor: 2.75,
@@ -47,7 +47,7 @@ export default {
 	},
 	addi_deftratech: {
 		name: 'Addi Deftratech',
-		bp: '?',
+		bp: 13,
 		rng_pot: 3,
 		tec_pot: 3,
 		pot_floor: 2.75,
@@ -60,7 +60,7 @@ export default {
 	},
 	addi_deftratech_s: {
 		name: 'Addi Deftratech S',
-		bp: '?',
+		bp: 13,
 		rng_pot: 3,
 		tec_pot: 3,
 		pot_floor: 2.75,
@@ -343,7 +343,7 @@ export default {
 	},
 	addi_guamelra: {
 		name: 'Addi Guamelra',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		rng_pot: 3,
 		pot_floor: 1,
@@ -351,7 +351,7 @@ export default {
 	},
 	addi_guameltech: {
 		name: 'Addi Guameltech',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
@@ -365,7 +365,7 @@ export default {
 	},
 	addi_guamelra_s: {
 		name: 'Addi Guamelra S',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		rng_pot: 3,
 		pot_floor: 1,
@@ -373,7 +373,7 @@ export default {
 	},
 	addi_guameltech_s: {
 		name: 'Addi Guameltech S',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
@@ -387,7 +387,7 @@ export default {
 	},
 	addi_guaratech: {
 		name: 'Addi Guaratech',
-		bp: '?',
+		bp: 13,
 		rng_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
@@ -401,7 +401,7 @@ export default {
 	},
 	addi_guaratech_s: {
 		name: 'Addi Guaratech S',
-		bp: '?',
+		bp: 13,
 		rng_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
@@ -427,7 +427,7 @@ export default {
 	},
 	addi_spimelra: {
 		name: 'Addi Spimelra',
-		bp: '?',
+		bp: 13,
 		pp: 6,
 		mel_pot: 3,
 		rng_pot: 3,
@@ -435,7 +435,7 @@ export default {
 	},
 	addi_spimeltech: {
 		name: 'Addi Spimeltech',
-		bp: '?',
+		bp: 13,
 		pp: 6,
 		mel_pot: 3,
 		tec_pot: 3,
@@ -449,7 +449,7 @@ export default {
 	},
 	addi_spimelra_s: {
 		name: 'Addi Spimelra S',
-		bp: '?',
+		bp: 13,
 		pp: 6,
 		mel_pot: 3,
 		rng_pot: 3,
@@ -457,7 +457,7 @@ export default {
 	},
 	addi_spimeltech_s: {
 		name: 'Addi Spimeltech S',
-		bp: '?',
+		bp: 13,
 		pp: 6,
 		mel_pot: 3,
 		tec_pot: 3,
@@ -471,7 +471,7 @@ export default {
 	},
 	addi_spiratech: {
 		name: 'Addi Spiratech',
-		bp: '?',
+		bp: 13,
 		pp: 6,
 		rng_pot: 3,
 		tec_pot: 3,
@@ -485,7 +485,7 @@ export default {
 	},
 	addi_spiratech_s: {
 		name: 'Addi Spiratech S',
-		bp: '?',
+		bp: 13,
 		pp: 6,
 		rng_pot: 3,
 		tec_pot: 3,
@@ -511,7 +511,7 @@ export default {
 	},
 	addi_stamelra: {
 		name: 'Addi Stamelra',
-		bp: '?',
+		bp: 13,
 		hp: 20,
 		mel_pot: 3,
 		rng_pot: 3,
@@ -519,7 +519,7 @@ export default {
 	},
 	addi_stameltech: {
 		name: 'Addi Stameltech',
-		bp: '?',
+		bp: 13,
 		hp: 20,
 		mel_pot: 3,
 		tec_pot: 3,
@@ -533,7 +533,7 @@ export default {
 	},
 	addi_stamelra_s: {
 		name: 'Addi Stamelra S',
-		bp: '?',
+		bp: 13,
 		hp: 20,
 		mel_pot: 3,
 		rng_pot: 3,
@@ -541,7 +541,7 @@ export default {
 	},
 	addi_stameltech_s: {
 		name: 'Addi Stameltech S',
-		bp: '?',
+		bp: 13,
 		hp: 20,
 		mel_pot: 3,
 		tec_pot: 3,
@@ -555,7 +555,7 @@ export default {
 	},
 	addi_staratech: {
 		name: 'Addi Staratech',
-		bp: '?',
+		bp: 13,
 		hp: 20,
 		rng_pot: 3,
 		tec_pot: 3,
@@ -569,7 +569,7 @@ export default {
 	},
 	addi_staratech_s: {
 		name: 'Addi Staratech S',
-		bp: '?',
+		bp: 13,
 		hp: 20,
 		rng_pot: 3,
 		tec_pot: 3,
@@ -596,7 +596,7 @@ export default {
 	},
 	addi_staspimelra: {
 		name: 'Addi Staspimelra',
-		bp: '?',
+		bp: 13,
 		hp: 10,
 		pp: 3,
 		mel_pot: 3,
@@ -605,7 +605,7 @@ export default {
 	},
 	addi_staspimeltech: {
 		name: 'Addi Staspimeltech',
-		bp: '?',
+		bp: 13,
 		hp: 10,
 		pp: 3,
 		mel_pot: 3,
@@ -621,7 +621,7 @@ export default {
 	},
 	addi_staspimelra_s: {
 		name: 'Addi Staspimelra S',
-		bp: '?',
+		bp: 13,
 		hp: 10,
 		pp: 3,
 		mel_pot: 3,
@@ -630,7 +630,7 @@ export default {
 	},
 	addi_staspimeltech_s: {
 		name: 'Addi Staspimeltech S',
-		bp: '?',
+		bp: 13,
 		hp: 10,
 		pp: 3,
 		mel_pot: 3,
@@ -646,7 +646,7 @@ export default {
 	},
 	addi_staspiratech: {
 		name: 'Addi Staspiratech',
-		bp: '?',
+		bp: 13,
 		hp: 10,
 		pp: 3,
 		rng_pot: 3,
@@ -662,7 +662,7 @@ export default {
 	},
 	addi_staspiratech_s: {
 		name: 'Addi Staspiratech S',
-		bp: '?',
+		bp: 13,
 		hp: 10,
 		pp: 3,
 		rng_pot: 3,
@@ -696,7 +696,7 @@ export default {
 	},
 	addi_wardmelra: {
 		name: 'Addi Wardmelra',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		rng_pot: 3,
 		pot_floor: 1,
@@ -704,7 +704,7 @@ export default {
 	},
 	addi_wardmeltech: {
 		name: 'Addi Wardmeltech',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
@@ -718,7 +718,7 @@ export default {
 	},
 	addi_wardmelra_s: {
 		name: 'Addi Wardmelra S',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		rng_pot: 3,
 		pot_floor: 1,
@@ -726,7 +726,7 @@ export default {
 	},
 	addi_wardmeltech_s: {
 		name: 'Addi Wardmeltech S',
-		bp: '?',
+		bp: 13,
 		mel_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
@@ -740,7 +740,7 @@ export default {
 	},
 	addi_wardratech: {
 		name: 'Addi Wardratech',
-		bp: '?',
+		bp: 13,
 		rng_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
@@ -754,7 +754,7 @@ export default {
 	},
 	addi_wardratech_s: {
 		name: 'Addi Wardratech S',
-		bp: '?',
+		bp: 13,
 		rng_pot: 3,
 		tec_pot: 3,
 		pot_floor: 1,
