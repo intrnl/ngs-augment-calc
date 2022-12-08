@@ -880,7 +880,7 @@ export default {
 	},
 	alts_secreta_iv: {
 		name: 'Alts Secreta IV',
-		bp: '?',
+		bp: 6,
 		hp: -10,
 		mel_pot: 2.5,
 		rng_pot: 2.5,
@@ -977,7 +977,14 @@ export default {
 	},
 	ams_soul_iv: {
 		name: 'Ams Soul IV',
-		bp: '?',
+		bp: 11,
+		hp: 10,
+		pp: 3,
+		tec_pot: 3,
+	},
+	ams_soul_iv_s: {
+		name: 'Ams Soul IV S',
+		bp: 11,
 		hp: 10,
 		pp: 3,
 		tec_pot: 3,
@@ -1099,6 +1106,13 @@ export default {
 		pp: 3,
 		rng_pot: 3,
 	},
+	crocys_soul_iv_s: {
+		name: 'Crocys Soul IV S',
+		bp: 11,
+		hp: 10,
+		pp: 3,
+		rng_pot: 3,
+	},
 	crocys_soul_v: {
 		name: 'Crocys Soul V',
 		bp: '?',
@@ -1138,6 +1152,12 @@ export default {
 	},
 	daityl_soul_iv: {
 		name: 'Daityl Soul IV',
+		bp: 11,
+		pp: 5,
+		mel_pot: 3,
+	},
+	daityl_soul_iv_s: {
+		name: 'Daityl Soul IV S',
 		bp: 11,
 		pp: 5,
 		mel_pot: 3,
@@ -1290,10 +1310,64 @@ export default {
 		bp: 6,
 		pot_floor: 3,
 	},
+	deftness_iv_s: {
+		name: 'Deftness IV S',
+		bp: 6,
+		pot_floor: 3,
+	},
 	deftness_v: {
 		name: 'Deftness V',
 		bp: 7,
 		pot_floor: 4,
+	},
+	dexta_note: {
+		name: 'Dexta Note',
+		bp: 5,
+		hp: 10,
+		mel_pot: 2,
+		rng_pot: 2,
+		tec_pot: 2,
+		all_resist: -10,
+	},
+	doldor_soul_i: {
+		name: 'Doldor Soul I',
+		bp: 7,
+		hp: 15,
+		pp: 5,
+		rng_pot: 1,
+		all_resist: -10,
+	},
+	doldor_soul_ii: {
+		name: 'Doldor Soul II',
+		bp: 8,
+		hp: 15,
+		pp: 5,
+		rng_pot: 2,
+		all_resist: -10,
+	},
+	doldor_soul_iii: {
+		name: 'Doldor Soul III',
+		bp: 10,
+		hp: 15,
+		pp: 5,
+		rng_pot: 2.5,
+		all_resist: -10,
+	},
+	doldor_soul_iv: {
+		name: 'Doldor Soul IV',
+		bp: 11,
+		hp: 15,
+		pp: 5,
+		rng_pot: 3,
+		all_resist: -10,
+	},
+	doldor_soul_v: {
+		name: 'Doldor Soul V',
+		bp: '?',
+		hp: 15,
+		pp: 5,
+		rng_pot: 4,
+		all_resist: -10,
 	},
 	dolz_soul_i: {
 		name: 'Dolz Soul I',
@@ -1420,6 +1494,12 @@ export default {
 		hp: 15,
 		mel_pot: 3,
 	},
+	dust_soul_iv_s: {
+		name: 'Dust Soul IV S',
+		bp: 11,
+		hp: 15,
+		mel_pot: 3,
+	},
 	dust_soul_v: {
 		name: 'Dust Soul V',
 		bp: '?',
@@ -1480,6 +1560,15 @@ export default {
 		rng_pot: 2.75,
 		tec_pot: 2.75,
 	},
+	eradi_soul_iv_s: {
+		name: 'Eradi Soul IV S',
+		bp: 11,
+		hp: 10,
+		pp: 4,
+		mel_pot: 2.75,
+		rng_pot: 2.75,
+		tec_pot: 2.75,
+	},
 	eradi_soul_v: {
 		name: 'Eradi Soul V',
 		bp: '?',
@@ -1524,6 +1613,11 @@ export default {
 		bp: 6,
 		fire_pot: 2.5,
 	},
+	fire_exploit_ii: {
+		name: 'Fire Exploit II',
+		bp: '?',
+		fire_pot: 4,
+	},
 	forms_sand_soul_i: {
 		name: 'Forms Sand Soul I',
 		bp: 6,
@@ -1555,15 +1649,15 @@ export default {
 	},
 	forms_sand_soul_iv: {
 		name: 'Forms Sand Soul IV',
-		bp: '?',
+		bp: 11,
 		tec_pot: 3,
-		dmg_resist: 2,
+		dmg_resist: 2.5,
 	},
 	forms_sand_soul_v: {
 		name: 'Forms Sand Soul V',
 		bp: '?',
 		tec_pot: 4,
-		dmg_resist: 2,
+		dmg_resist: 2.5,
 	},
 	forms_soul_i: {
 		name: 'Forms Soul I',
@@ -1596,15 +1690,15 @@ export default {
 	},
 	forms_soul_iv: {
 		name: 'Forms Soul IV',
-		bp: '?',
+		bp: 11,
 		mel_pot: 3,
-		dmg_resist: 2,
+		dmg_resist: 2.5,
 	},
 	forms_soul_v: {
 		name: 'Forms Soul V',
 		bp: '?',
 		mel_pot: 4,
-		dmg_resist: 2,
+		dmg_resist: 2.5,
 	},
 	forms_machini_soul_i: {
 		name: 'Forms Machini Soul I',
@@ -1637,15 +1731,15 @@ export default {
 	},
 	forms_machini_soul_iv: {
 		name: 'Forms Machini Soul IV',
-		bp: '?',
+		bp: 11,
 		rng_pot: 3,
-		dmg_resist: 2,
+		dmg_resist: 2.5,
 	},
 	forms_machini_soul_v: {
 		name: 'Forms Machini Soul V',
 		bp: '?',
 		rng_pot: 4,
-		dmg_resist: 2,
+		dmg_resist: 2.5,
 	},
 	freeze_ward_i: {
 		name: 'Freeze Ward I',
@@ -1676,6 +1770,46 @@ export default {
 		name: 'Freeze Ward V',
 		bp: 8,
 		freeze_resist: 40,
+	},
+	freid_soul_i: {
+		name: 'Freid Soul I',
+		bp: 7,
+		hp: 15,
+		pp: 5,
+		mel_pot: 1,
+		all_resist: -10,
+	},
+	freid_soul_ii: {
+		name: 'Freid Soul II',
+		bp: 8,
+		hp: 15,
+		pp: 5,
+		mel_pot: 2,
+		all_resist: -10,
+	},
+	freid_soul_iii: {
+		name: 'Freid Soul III',
+		bp: 10,
+		hp: 15,
+		pp: 5,
+		mel_pot: 2.5,
+		all_resist: -10,
+	},
+	freid_soul_iv: {
+		name: 'Freid Soul IV',
+		bp: 11,
+		hp: 15,
+		pp: 5,
+		mel_pot: 3,
+		all_resist: -10,
+	},
+	freid_soul_v: {
+		name: 'Freid Soul V',
+		bp: '?',
+		hp: 15,
+		pp: 5,
+		mel_pot: 4,
+		all_resist: -10,
 	},
 	frostyl_soul_i: {
 		name: 'Frostyl Soul I',
@@ -1714,6 +1848,13 @@ export default {
 	},
 	frostyl_soul_iv: {
 		name: 'Frostyl Soul IV',
+		bp: 11,
+		hp: 10,
+		pp: 3,
+		mel_pot: 3,
+	},
+	frostyl_soul_iv_s: {
+		name: 'Frostyl Soul IV S',
 		bp: 11,
 		hp: 10,
 		pp: 3,
@@ -1776,6 +1917,12 @@ export default {
 		hp: 20,
 		mel_pot: 3,
 	},
+	gigas_might_iv_s: {
+		name: 'Gigas Might IV S',
+		bp: 11,
+		hp: 20,
+		mel_pot: 3,
+	},
 	gigas_might_v: {
 		name: 'Gigas Might V',
 		bp: '?',
@@ -1818,6 +1965,12 @@ export default {
 		hp: 20,
 		rng_pot: 3,
 	},
+	gigas_precision_iv_s: {
+		name: 'Gigas Precision IV S',
+		bp: 11,
+		hp: 20,
+		rng_pot: 3,
+	},
 	gigas_precision_v: {
 		name: 'Gigas Precision V',
 		bp: '?',
@@ -1856,6 +2009,12 @@ export default {
 	},
 	gigas_technique_iv: {
 		name: 'Gigas Technique IV',
+		bp: 11,
+		hp: 20,
+		tec_pot: 3,
+	},
+	gigas_technique_iv_s: {
+		name: 'Gigas Technique IV S',
 		bp: 11,
 		hp: 20,
 		tec_pot: 3,
@@ -1960,6 +2119,7 @@ export default {
 	ice_exploit_ii: {
 		name: 'Ice Exploit II',
 		bp: '?',
+		ice_pot: 4,
 	},
 	kvar_note_a: {
 		name: 'Kvar Note A',
@@ -2165,7 +2325,7 @@ export default {
 	},
 	melra_dualble_iv: {
 		name: 'Melra Dualble IV',
-		bp: '?',
+		bp: 8,
 		mel_pot: 2.75,
 		rng_pot: 2.75,
 	},
@@ -2207,7 +2367,7 @@ export default {
 	},
 	meltech_dualble_iv: {
 		name: 'Meltech Dualble IV',
-		bp: '?',
+		bp: 8,
 		mel_pot: 2.75,
 		tec_pot: 2.75,
 	},
@@ -2244,6 +2404,11 @@ export default {
 	},
 	might_iv: {
 		name: 'Might IV',
+		bp: 7,
+		mel_pot: 3,
+	},
+	might_iv_s: {
+		name: 'Might IV S',
 		bp: 7,
 		mel_pot: 3,
 	},
@@ -2288,6 +2453,12 @@ export default {
 		pp: 5,
 		tec_pot: 3,
 	},
+	nex_soul_iv_s: {
+		name: 'Nex Soul IV S',
+		bp: 11,
+		pp: 5,
+		tec_pot: 3,
+	},
 	nex_soul_v: {
 		name: 'Nex Soul V',
 		bp: '?',
@@ -2298,6 +2469,55 @@ export default {
 		name: 'Nighttime Exploit I',
 		bp: 6,
 		nighttime_pot: 2.5,
+	},
+	nils_soul_i: {
+		name: 'Nils Soul I',
+		bp: 7,
+		hp: 15,
+		pp: 5,
+		tec_pot: 1,
+		all_resist: -10,
+	},
+	nils_soul_ii: {
+		name: 'Nils Soul II',
+		bp: 8,
+		hp: 15,
+		pp: 5,
+		tec_pot: 2,
+		all_resist: -10,
+	},
+	nils_soul_iii: {
+		name: 'Nils Soul III',
+		bp: 10,
+		hp: 15,
+		pp: 5,
+		tec_pot: 2.5,
+		all_resist: -10,
+	},
+	nils_soul_iv: {
+		name: 'Nils Soul IV',
+		bp: 11,
+		hp: 15,
+		pp: 5,
+		tec_pot: 3,
+		all_resist: -10,
+	},
+	nils_soul_v: {
+		name: 'Nils Soul V',
+		bp: '?',
+		hp: 15,
+		pp: 5,
+		tec_pot: 4,
+		all_resist: -10,
+	},
+	noizel_note: {
+		name: 'Noizel Note',
+		bp: 5,
+		pp: 3,
+		mel_pot: 2,
+		rng_pot: 2,
+		tec_pot: 2,
+		all_resist: -10,
 	},
 	pain_ward_i: {
 		name: 'Pain Ward I',
@@ -2395,6 +2615,12 @@ export default {
 		pp: 5,
 		rng_pot: 3,
 	},
+	pettas_soul_iv_s: {
+		name: 'Pettas Soul IV S',
+		bp: 11,
+		pp: 5,
+		rng_pot: 3,
+	},
 	pettas_soul_v: {
 		name: 'Pettas Soul V',
 		bp: '?',
@@ -2461,6 +2687,11 @@ export default {
 		bp: 7,
 		rng_pot: 3,
 	},
+	precision_iv_s: {
+		name: 'Precision IV S',
+		bp: 7,
+		rng_pot: 3,
+	},
 	precision_v: {
 		name: 'Precision V',
 		bp: 8,
@@ -2498,6 +2729,12 @@ export default {
 	},
 	ragras_soul_iv: {
 		name: 'Ragras Soul IV',
+		bp: 11,
+		hp: 15,
+		rng_pot: 3,
+	},
+	ragras_soul_iv_s: {
+		name: 'Ragras Soul IV S',
 		bp: 11,
 		hp: 15,
 		rng_pot: 3,
@@ -2540,7 +2777,7 @@ export default {
 	},
 	ratech_dualble_iv: {
 		name: 'Ratech Dualble IV',
-		bp: '?',
+		bp: 8,
 		rng_pot: 2.75,
 		tec_pot: 2.75,
 	},
@@ -2582,6 +2819,12 @@ export default {
 	},
 	renus_soul_iv: {
 		name: 'Renus Soul IV',
+		bp: 11,
+		hp: 15,
+		tec_pot: 3,
+	},
+	renus_soul_iv_s: {
+		name: 'Renus Soul IV S',
 		bp: 11,
 		hp: 15,
 		tec_pot: 3,
@@ -2635,6 +2878,13 @@ export default {
 		rng_pot: 0.75,
 		tec_pot: 0.75,
 	},
+	sezun_automfevre: {
+		name: 'Sezun Automfevre',
+		bp: 10,
+		seasonal_pot: 5,
+		seasonal_crit: 20,
+		seasonal_drop: 25,
+	},
 	sezun_lunafiv: {
 		name: 'Sezun Lunafiv',
 		bp: 10,
@@ -2642,8 +2892,8 @@ export default {
 		seasonal_crit: 20,
 		seasonal_drop: 25,
 	},
-	sezun_automfevre: {
-		name: 'Sezun Automfevre',
+	sezun_wintafiv: {
+		name: 'Sezun Wintafiv',
 		bp: 10,
 		seasonal_pot: 5,
 		seasonal_crit: 20,
@@ -2856,6 +3106,49 @@ export default {
 		bp: 7,
 		hp: 25,
 	},
+	stira_domina: {
+		name: 'Stira Domina',
+		bp: 11,
+		mel_pot: 3,
+		rng_pot: 3,
+		tec_pot: 3,
+		all_resist: -2,
+	},
+	stira_domina_ii: {
+		name: 'Stira Domina II',
+		bp: '?',
+		mel_pot: 4,
+		rng_pot: 4,
+		tec_pot: 4,
+		all_resist: -20,
+	},
+	stira_note_a: {
+		name: 'Stira Note A',
+		bp: 5,
+		hp: 15,
+		pp: 5,
+	},
+	stira_note_b: {
+		name: 'Stira Note B',
+		bp: 4,
+		mel_pot: 2,
+		rng_pot: 2,
+		all_resist: -10,
+	},
+	stira_note_c: {
+		name: 'Stira Note C',
+		bp: 4,
+		mel_pot: 2,
+		tec_pot: 2,
+		all_resist: -10,
+	},
+	stira_note_d: {
+		name: 'Stira Note D',
+		bp: 4,
+		rng_pot: 2,
+		tec_pot: 2,
+		all_resist: -10,
+	},
 	super_might_i: {
 		name: 'Super Might I',
 		bp: 8,
@@ -2985,6 +3278,11 @@ export default {
 	},
 	technique_iv: {
 		name: 'Technique IV',
+		bp: 7,
+		tec_pot: 3,
+	},
+	technique_iv_s: {
+		name: 'Technique IV S',
 		bp: 7,
 		tec_pot: 3,
 	},
@@ -3216,6 +3514,14 @@ export default {
 	},
 	vardi_soul_iv: {
 		name: 'Vardi Soul IV',
+		bp: 11,
+		hp: 25,
+		mel_pot: 2.75,
+		rng_pot: 2.75,
+		tec_pot: 2.75,
+	},
+	vardi_soul_iv_s: {
+		name: 'Vardi Soul IV S',
 		bp: 11,
 		hp: 25,
 		mel_pot: 2.75,
