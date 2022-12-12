@@ -7,7 +7,7 @@
 		"publish": "rm -r dist/_assets; pnpm run build && scripts/publish.sh"
 	},
 	"devDependencies": {
-		"esbuild": "^0.16.2",
+		"esbuild": "^0.16.4",
 		"json5": "^2.2.1"
 	}
 }
