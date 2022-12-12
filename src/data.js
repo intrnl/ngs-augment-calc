@@ -1650,13 +1650,13 @@ export default {
 	forms_sand_soul_iv: {
 		name: 'Forms Sand Soul IV',
 		bp: 11,
-		tec_pot: 3,
+		tec_pot: 2.5,
 		dmg_resist: 2.5,
 	},
 	forms_sand_soul_v: {
 		name: 'Forms Sand Soul V',
 		bp: '?',
-		tec_pot: 4,
+		tec_pot: 3,
 		dmg_resist: 2.5,
 	},
 	forms_soul_i: {
@@ -1691,13 +1691,13 @@ export default {
 	forms_soul_iv: {
 		name: 'Forms Soul IV',
 		bp: 11,
-		mel_pot: 3,
+		mel_pot: 2.5,
 		dmg_resist: 2.5,
 	},
 	forms_soul_v: {
 		name: 'Forms Soul V',
 		bp: '?',
-		mel_pot: 4,
+		mel_pot: 3,
 		dmg_resist: 2.5,
 	},
 	forms_machini_soul_i: {
@@ -1732,13 +1732,13 @@ export default {
 	forms_machini_soul_iv: {
 		name: 'Forms Machini Soul IV',
 		bp: 11,
-		rng_pot: 3,
+		rng_pot: 2.5,
 		dmg_resist: 2.5,
 	},
 	forms_machini_soul_v: {
 		name: 'Forms Machini Soul V',
 		bp: '?',
-		rng_pot: 4,
+		rng_pot: 3,
 		dmg_resist: 2.5,
 	},
 	freeze_ward_i: {
