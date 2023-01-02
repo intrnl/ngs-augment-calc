@@ -69,15 +69,19 @@ td input {
 
 x-app {
 	display: grid;
-	grid-template-areas: 'header header' 'sidebar display';
-	grid-template-columns: 280px minmax(0, 1fr);
+	grid-template-areas: 'header' 'sidebar' 'divider' 'display';
+	grid-template-columns: unset;
 	gap: 16px;
 }
 
-@media (max-width: 680px) {
+@media (min-width: 680px) {
 	x-app {
-		grid-template-areas: 'header' 'sidebar' 'display';
-		grid-template-columns: unset;
+		grid-template-areas: 'header header' 'sidebar display';
+		grid-template-columns: 280px minmax(0, 1fr);
+	}
+
+	.divider {
+		display: none;
 	}
 }
 
@@ -92,7 +96,12 @@ x-app {
 	display: inline-block;
 }
 
-@media (max-width: 680px) {
+.divider {
+	grid-area: divider;
+	margin: 0;
+}
+
+@media (max-width: 679px) {
 	.header .title {
 		flex-basis: 100%;
 	}
