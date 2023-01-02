@@ -152,6 +152,9 @@ a:hover {
 
 .search input {
 	width: 100%;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
 }
 
 .search .autocomplete {
