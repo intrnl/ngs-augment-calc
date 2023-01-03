@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/commithash.js"],
+  "sourcesContent": ["/** @type {string} */\nconst hash = COMMIT_HASH;\n\nexport default hash;\n"],
+  "mappings": "AACA,IAAMA,EAAO,SAENC,EAAQD",
+  "names": ["hash", "commithash_default"]
+}
