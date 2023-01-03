@@ -3112,7 +3112,7 @@ export default {
 		mel_pot: 3,
 		rng_pot: 3,
 		tec_pot: 3,
-		all_resist: -2,
+		dmg_resist: -2,
 	},
 	stira_domina_ii: {
 		name: 'Stira Domina II',
