@@ -6,6 +6,7 @@ import './style.css';
 // data ver 10.04
 // https://docs.google.com/spreadsheets/d/1ShT8I1wj9mGh-hGXqF0j9tvUU_jkYLvGd4gPZjNzRpo/edit?usp=sharing
 const { default: data } = await import('./data.js');
+const { default: commitHash } = await import('./commithash.js');
 
 
 class AppElement extends HTMLElement {
@@ -35,7 +36,7 @@ class AppElement extends HTMLElement {
 
 		this.augments = augments;
 
-		this.commitHash.textContent = COMMIT_HASH;
+		this.commitHash.textContent = commitHash;
 
 		this.calculate();
 		this._initializeSearch();
