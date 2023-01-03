@@ -45,11 +45,14 @@ class AppElement extends HTMLElement {
 		const augments = this.augments;
 
 		const { scores, unknowns } = calculateStats(augments);
+		const keys = Object.keys(scores);
 
-		for (const key in scores) {
+		for (let idx = 0, len = keys.length; idx < len; idx++) {
+			const key = keys[idx];
+
 			const unknown = unknowns[key];
-
 			const score = scores[key];
+
 			const formatted = (/pot|resist|crit|drop/).test(key)
 				? `${score.toFixed(2)}%`
 				: score;
@@ -57,7 +60,7 @@ class AppElement extends HTMLElement {
 			const field = document.getElementById(key);
 			const header = field.previousElementSibling;
 
-			const isHighlighted = score || unknown;
+			const isHighlighted = !!(score || unknown);
 
 			header.classList.toggle('highlight', isHighlighted);
 			field.classList.toggle('highlight', isHighlighted);
@@ -212,7 +215,8 @@ class AppElement extends HTMLElement {
 
 		parent.classList.remove('escaped');
 
-		for (const option of nodes) {
+		for (let idx = 0, len = nodes.length; idx < len; idx++) {
+			const option = nodes[idx];
 			const dataset = option.dataset;
 
 			const match = (
@@ -306,11 +310,11 @@ class AppElement extends HTMLElement {
 		this.searchInitialized = true;
 
 		const container = this.autocompleteContainer;
-		let idx = 0;
+		const keys = Object.keys(data);
 
-		for (const key in data) {
+		for (let idx = 0, len = keys.length; idx < len; idx++) {
+			const key = keys[idx];
 			const item = data[key];
-
 			const li = document.createElement('li');
 
 			li.style.setProperty('display', 'none');
@@ -319,7 +323,7 @@ class AppElement extends HTMLElement {
 			li.textContent = `${item.name}`;
 			li.dataset.bp = item.bp || '0';
 			li.dataset.value = key;
-			li.dataset.idx = idx++;
+			li.dataset.idx = idx;
 
 			container.appendChild(li);
 		}
@@ -335,22 +339,26 @@ class AppElement extends HTMLElement {
 customElements.define('x-app', AppElement);
 
 function calculateStats (augments) {
-	let scores = createStatsObject(0);
-	let unknowns = createStatsObject(false);
+	const scores = createStatsObject(0);
+	const unknowns = createStatsObject(false);
 
-	for (let augment of augments) {
+	for (let i = 0, il = augments.length; i < il; i++) {
+		const augment = augments[i];
+
 		if (!(augment in data)) {
 			continue;
 		}
 
-		let obj = data[augment];
+		const obj = data[augment];
+		const keys = Object.keys(obj);
 
-		for (let key in scores) {
-			if (!(key in obj)) {
+		for (let j = 0, jl = keys.length; j < jl; j++) {
+			const key = keys[j];
+			const value = obj[key];
+
+			if (key === 'name') {
 				continue;
 			}
-
-			let value = obj[key];
 
 			if (value === '?') {
 				unknowns[key] = true;
