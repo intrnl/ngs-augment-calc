@@ -846,7 +846,7 @@ export default {
 		rng_pot: 1,
 		tec_pot: 1,
 		pot_floor: 1,
-		dmg_resist: -1,
+		dmg_resist: -1.5,
 	},
 	alts_secreta_i_s: {
 		name: 'Alts Secreta I S',
@@ -856,7 +856,7 @@ export default {
 		rng_pot: 1,
 		tec_pot: 1,
 		pot_floor: 1,
-		dmg_resist: -1,
+		dmg_resist: -1.5,
 	},
 	alts_secreta_ii: {
 		name: 'Alts Secreta II',
@@ -866,7 +866,7 @@ export default {
 		rng_pot: 1.5,
 		tec_pot: 1.5,
 		pot_floor: 1.5,
-		dmg_resist: -1,
+		dmg_resist: -1.5,
 	},
 	alts_secreta_iii: {
 		name: 'Alts Secreta III',
