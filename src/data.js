@@ -2165,7 +2165,7 @@ export default {
 	},
 	halphinale: {
 		name: 'Halphinale',
-		bp: '?',
+		bp: 13,
 		hp: 15,
 		pp: 5,
 		mel_pot: 4,
