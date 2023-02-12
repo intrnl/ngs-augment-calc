@@ -55,7 +55,7 @@ class AppElement extends HTMLElement {
 			const score = scores[key];
 
 			const formatted = (/pot|resist|crit|drop/).test(key)
-				? `${score.toFixed(2)}%`
+				? `${rounddown(score, 2).toFixed(2)}%`
 				: score;
 
 			const field = document.getElementById(key);
@@ -364,6 +364,10 @@ function calculateStats (augments) {
 			if (value === '?') {
 				unknowns[key] = true;
 			}
+			else if (key === 'mel_pot' || key === 'rng_pot' || key === 'tec_pot' || key === 'pot_floor' || key === key === 'dmg_resist') {
+				// NOTE: Attack potencies and damage resistances are multiplicative
+				scores[key] = (scores[key] || 1) * (1 + (value / 100));
+			}
 			else {
 				scores[key] += value;
 			}
@@ -405,4 +409,9 @@ function createStatsObject (default_value) {
 		seasonal_crit: default_value,
 		seasonal_drop: default_value,
 	};
+}
+
+function rounddown (value, decimals) {
+	const pow = 10 ** decimals;
+	return Math.floor((value + Number.EPSILON) * pow) / pow;
 }
