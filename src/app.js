@@ -9,6 +9,9 @@ const { default: data } = await import('./data.js');
 const { default: commitHash } = await import('./commithash.js');
 
 
+// NOTE: Attack potencies and damage resistances are multiplicative
+const exponentials = new Set(['mel_pot', 'rng_pot', 'tec_pot', 'pot_floor', 'dmg_resist']);
+
 class AppElement extends HTMLElement {
 	/** @type {HTMLInputElement} */
 	searchField = query(this, 'searchField');
@@ -54,9 +57,14 @@ class AppElement extends HTMLElement {
 			const unknown = unknowns[key];
 			const score = scores[key];
 
-			const formatted = (/pot|resist|crit|drop/).test(key)
-				? `${rounddown(score, 2).toFixed(2)}%`
-				: score;
+			let formatted = score;
+
+			if (exponentials.has(key)) {
+				formatted = rounddown(score, 3).toFixed(3)
+			}
+			else if ((/pot|resist|crit|drop/).test(key)) {
+				formatted = rounddown(score, 2).toFixed(2) + '%'
+			}
 
 			const field = document.getElementById(key);
 			const header = field.previousElementSibling;
@@ -364,8 +372,7 @@ function calculateStats (augments) {
 			if (value === '?') {
 				unknowns[key] = true;
 			}
-			else if (key === 'mel_pot' || key === 'rng_pot' || key === 'tec_pot' || key === 'pot_floor' || key === key === 'dmg_resist') {
-				// NOTE: Attack potencies and damage resistances are multiplicative
+			else if (exponentials.has(key)) {
 				scores[key] = (scores[key] || 1) * (1 + (value / 100));
 			}
 			else {
