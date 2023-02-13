@@ -1,8 +1,7 @@
-import processes from 'node:child_process';
 import * as esbuild from 'esbuild';
+import processes from 'node:child_process';
 
 import { config } from '../esbuild.config.js';
-
 
 const COMMIT_HASH = processes.execSync(`git rev-parse HEAD`, { encoding: 'utf-8' });
 

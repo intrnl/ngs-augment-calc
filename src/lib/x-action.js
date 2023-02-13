@@ -118,7 +118,10 @@ function handleEvent (event) {
 		if (typeof target === 'string') {
 			if (!customElements.get(target)) {
 				if (DEV) {
-					console.warn(`cannot fire ${event.type} event for ${target} because the controller is still not present.`, node);
+					console.warn(
+						`cannot fire ${event.type} event for ${target} because the controller is still not present.`,
+						node,
+					);
 				}
 
 				def = def.next;
@@ -132,7 +135,10 @@ function handleEvent (event) {
 			target[method](event);
 		}
 		else if (DEV) {
-			console.warn(`cannot fire ${event.type} event for ${target.localName}#${method} because it does not exist.`, node);
+			console.warn(
+				`cannot fire ${event.type} event for ${target.localName}#${method} because it does not exist.`,
+				node,
+			);
 		}
 
 		def = def.next;

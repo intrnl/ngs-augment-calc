@@ -1,8 +1,7 @@
-import * as os from 'os';
 import * as esbuild from 'esbuild';
+import * as os from 'os';
 
 import { config } from '../esbuild.config.js';
-
 
 const args = process.argv.slice(2);
 
@@ -40,7 +39,6 @@ const printServerInfo = ({ host, port }) => {
 	console.log('');
 };
 
-
 const context = await esbuild.context({
 	minify: false,
 	...config,
@@ -60,6 +58,6 @@ const context = await esbuild.context({
 const internal = await context.serve({
 	servedir: 'dist/',
 	host: serverOptions.host,
-})
+});
 
 printServerInfo({ host: internal.host, port: internal.port });

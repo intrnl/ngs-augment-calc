@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
-import json5 from 'json5';
 
+import json5 from 'json5';
 
 const source = await fs.readFile('./data.json', 'utf-8');
 const json = JSON.parse(source);
@@ -50,7 +50,6 @@ for (const augment of json) {
 
 const result = json5.stringify(mapped, null, '\t');
 await fs.writeFile('./src/data.js', `export default ${result};\n`);
-
 
 function convert (nstr) {
 	if (!nstr) {
