@@ -8,7 +8,6 @@ import './style.css';
 const { default: data } = await import('./data.js');
 const { default: commitHash } = await import('./commithash.js');
 
-
 // NOTE: Attack potencies and damage resistances are multiplicative
 const exponentials = new Set(['mel_pot', 'rng_pot', 'tec_pot', 'pot_floor', 'dmg_resist']);
 
@@ -60,10 +59,10 @@ class AppElement extends HTMLElement {
 			let formatted = score;
 
 			if (exponentials.has(key)) {
-				formatted = rounddown(score, 3).toFixed(3)
+				formatted = rounddown(score, 3).toFixed(3);
 			}
 			else if ((/pot|resist|crit|drop/).test(key)) {
-				formatted = rounddown(score, 2).toFixed(2) + '%'
+				formatted = rounddown(score, 2).toFixed(2) + '%';
 			}
 
 			const field = document.getElementById(key);
@@ -228,11 +227,9 @@ class AppElement extends HTMLElement {
 			const option = nodes[idx];
 			const dataset = option.dataset;
 
-			const match = (
-				nextQuery &&
-				!this.augments.includes(dataset.value) &&
-				option.textContent.toLowerCase().includes(nextQuery)
-			);
+			const match = nextQuery
+				&& !this.augments.includes(dataset.value)
+				&& option.textContent.toLowerCase().includes(nextQuery);
 
 			option.style.setProperty('display', match ? '' : 'none');
 
