@@ -8,7 +8,7 @@ const json = JSON.parse(source);
 const mapped = {};
 
 for (const augment of json) {
-	const key = augment['Name'].toLowerCase().replaceAll(' ', '_');
+	const key = augment['Name'].toLowerCase().replace(/[ .]/g, '_');
 
 	if (key === 'none') {
 		continue;

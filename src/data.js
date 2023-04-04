@@ -1304,6 +1304,26 @@ export default {
 		tec_pot: 2.5,
 		low_temp_resist: 25,
 	},
+	defi_ceires_p_01: {
+		name: 'Defi Ceires P.01',
+		bp: '?',
+	},
+	defi_eriss_p_01: {
+		name: 'Defi Eriss P.01',
+		bp: '?',
+	},
+	defi_haumeas_p_01: {
+		name: 'Defi Haumeas P.01',
+		bp: '?',
+	},
+	defi_makemes_p_01: {
+		name: 'Defi Makemes P.01',
+		bp: '?',
+	},
+	defi_plutos_p_01: {
+		name: 'Defi Plutos P.01',
+		bp: '?',
+	},
 	deft_might: {
 		name: 'Deft Might',
 		bp: 8,
@@ -2963,6 +2983,13 @@ export default {
 	},
 	sezun_wintafiv: {
 		name: 'Sezun Wintafiv',
+		bp: 10,
+		seasonal_pot: 5,
+		seasonal_crit: 20,
+		seasonal_drop: 25,
+	},
+	sezun_segundanifiv: {
+		name: 'Sezun Segundanifiv',
 		bp: 10,
 		seasonal_pot: 5,
 		seasonal_crit: 20,
