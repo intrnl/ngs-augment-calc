@@ -8,8 +8,8 @@
 		"publish": "rm -r dist/_assets; pnpm run build && scripts/publish.sh"
 	},
 	"devDependencies": {
-		"dprint": "^0.34.4",
-		"esbuild": "^0.17.7",
+		"dprint": "^0.35.3",
+		"esbuild": "^0.17.15",
 		"json5": "^2.2.3"
 	}
 }
