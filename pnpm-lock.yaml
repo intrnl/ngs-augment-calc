@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 devDependencies:
+  '@minify-html/node':
+    specifier: ^0.10.8
+    version: 0.10.8
   dprint:
     specifier: ^0.35.3
     version: 0.35.3
@@ -211,6 +214,15 @@ packages:
     dev: true
     optional: true
 
+  /@minify-html/node@0.10.8:
+    resolution: {integrity: sha512-fS7YkbzYbQvTkWzJXHg4BJfFwK1dtkl942mY1B19X0gLlzm214MFVpmn/KGiVTWVZWCGI7aWoMCGPL2Ba0XBQA==}
+    engines: {node: '>= 8.6.0'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      cargo-cp-artifact: 0.1.8
+    dev: true
+
   /agent-base@6.0.2:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
@@ -222,6 +234,11 @@ packages:
 
   /buffer-crc32@0.2.13:
     resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
+    dev: true
+
+  /cargo-cp-artifact@0.1.8:
+    resolution: {integrity: sha512-3j4DaoTrsCD1MRkTF2Soacii0Nx7UHCce0EwUf4fHnggwiE4fbmF2AbnfzayR36DF8KGadfh7M/Yfy625kgPlA==}
+    hasBin: true
     dev: true
 
   /debug@4.3.4:
