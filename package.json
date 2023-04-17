@@ -9,8 +9,8 @@
 	},
 	"devDependencies": {
 		"@minify-html/node": "^0.10.8",
-		"dprint": "^0.35.3",
-		"esbuild": "^0.17.15",
+		"dprint": "^0.35.4",
+		"esbuild": "^0.17.17",
 		"json5": "^2.2.3"
 	}
 }
