@@ -1,16 +1,15 @@
 {
 	"type": "module",
 	"name": "ngs-augment-calc",
-	"packageManager": "pnpm@8.1.1",
 	"scripts": {
 		"dev": "NODE_ENV=development node ./scripts/dev.js",
 		"build": "NODE_ENV=production node ./scripts/build.js",
 		"publish": "rm -r dist/_assets; pnpm run build && scripts/publish.sh"
 	},
 	"devDependencies": {
-		"@minify-html/node": "^0.10.8",
-		"dprint": "^0.36.0",
-		"esbuild": "^0.17.18",
+		"@minify-html/node": "^0.11.1",
+		"dprint": "^0.39.1",
+		"esbuild": "^0.18.15",
 		"json5": "^2.2.3"
 	}
 }
