@@ -227,9 +227,9 @@ class AppElement extends HTMLElement {
 			const option = nodes[idx];
 			const dataset = option.dataset;
 
-			const match = nextQuery
-				&& !this.augments.includes(dataset.value)
-				&& option.textContent.toLowerCase().includes(nextQuery);
+			const match = nextQuery &&
+				!this.augments.includes(dataset.value) &&
+				option.textContent.toLowerCase().includes(nextQuery);
 
 			option.style.setProperty('display', match ? '' : 'none');
 
