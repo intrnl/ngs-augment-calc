@@ -3469,7 +3469,7 @@ export default {
 		seasonal_drop: 25,
 	},
 	sezun_automfevre__23: {
-		name: "Sezun Automfevre '23",
+		name: 'Sezun Automfevre \'23',
 		bp: 10,
 		seasonal_pot: 20,
 		seasonal_crit: 35,
