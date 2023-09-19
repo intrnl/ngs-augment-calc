@@ -2,14 +2,13 @@
 	"type": "module",
 	"name": "ngs-augment-calc",
 	"scripts": {
-		"prepare": "bun ./node_modules/@minify-html/node/postinstall.js",
 		"dev": "NODE_ENV=development node ./scripts/dev.js",
 		"build": "NODE_ENV=production node ./scripts/build.js",
-		"publish": "rm -r dist/_assets; bun run build && scripts/publish.sh"
+		"publish": "rm -r dist/_assets; pnpm run build && scripts/publish.sh"
 	},
 	"devDependencies": {
 		"@minify-html/node": "^0.11.1",
-		"dprint": "^0.40.2",
+		"dprint": "^0.41.0",
 		"esbuild": "^0.19.2",
 		"json5": "^2.2.3"
 	}
