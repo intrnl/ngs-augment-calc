@@ -12,7 +12,7 @@ devDependencies:
     specifier: ^0.41.0
     version: 0.41.0
   esbuild:
-    specifier: ^0.19.2
+    specifier: ^0.19.3
     version: 0.19.3
   json5:
     specifier: ^2.2.3
