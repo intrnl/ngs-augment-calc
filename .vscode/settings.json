@@ -1,4 +1,3 @@
 {
-	"editor.defaultFormatter": "dprint.dprint",
-	"dprint.path": "node_modules/.bin/dprint"
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
 }
