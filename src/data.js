@@ -811,7 +811,7 @@ export default {
 	},
 	ael_sovern: {
 		name: 'Ael Sovern',
-		bp: '?',
+		bp: 4,
 		mel_pot: 1,
 		rng_pot: 1,
 		tec_pot: 1,
@@ -1835,21 +1835,21 @@ export default {
 	},
 	exdi_deftmelra: {
 		name: 'Exdi Deftmelra',
-		bp: 13,
+		bp: 14,
 		mel_pot: 4,
 		rng_pot: 4,
 		pot_floor: 3,
 	},
 	exdi_deftmeltech: {
 		name: 'Exdi Deftmeltech',
-		bp: 13,
+		bp: 14,
 		mel_pot: 4,
 		tec_pot: 4,
 		pot_floor: 3,
 	},
 	exdi_deftratech: {
 		name: 'Exdi Deftratech',
-		bp: 13,
+		bp: 14,
 		rng_pot: 4,
 		tec_pot: 4,
 		pot_floor: 3,
@@ -1865,7 +1865,7 @@ export default {
 	},
 	exdi_guamelra: {
 		name: 'Exdi Guamelra',
-		bp: 13,
+		bp: 14,
 		mel_pot: 4,
 		rng_pot: 4,
 		pot_floor: 1.5,
@@ -1873,7 +1873,7 @@ export default {
 	},
 	exdi_guameltech: {
 		name: 'Exdi Guameltech',
-		bp: 13,
+		bp: 14,
 		mel_pot: 4,
 		tec_pot: 4,
 		pot_floor: 1.5,
@@ -1881,7 +1881,7 @@ export default {
 	},
 	exdi_guaratech: {
 		name: 'Exdi Guaratech',
-		bp: 13,
+		bp: 14,
 		rng_pot: 4,
 		tec_pot: 4,
 		pot_floor: 1.5,
@@ -1897,7 +1897,7 @@ export default {
 	},
 	exdi_spimelra: {
 		name: 'Exdi Spimelra',
-		bp: 13,
+		bp: 14,
 		pp: 6,
 		mel_pot: 4,
 		rng_pot: 4,
@@ -1905,7 +1905,7 @@ export default {
 	},
 	exdi_spimeltech: {
 		name: 'Exdi Spimeltech',
-		bp: 13,
+		bp: 14,
 		pp: 6,
 		mel_pot: 4,
 		tec_pot: 4,
@@ -1913,7 +1913,7 @@ export default {
 	},
 	exdi_spiratech: {
 		name: 'Exdi Spiratech',
-		bp: 13,
+		bp: 14,
 		pp: 6,
 		rng_pot: 4,
 		tec_pot: 4,
@@ -1929,7 +1929,7 @@ export default {
 	},
 	exdi_stamelra: {
 		name: 'Exdi Stamelra',
-		bp: 13,
+		bp: 14,
 		hp: 20,
 		mel_pot: 4,
 		rng_pot: 4,
@@ -1937,7 +1937,7 @@ export default {
 	},
 	exdi_stameltech: {
 		name: 'Exdi Stameltech',
-		bp: 13,
+		bp: 14,
 		hp: 20,
 		mel_pot: 4,
 		tec_pot: 4,
@@ -1945,7 +1945,7 @@ export default {
 	},
 	exdi_staratech: {
 		name: 'Exdi Staratech',
-		bp: 13,
+		bp: 14,
 		hp: 20,
 		rng_pot: 4,
 		tec_pot: 4,
@@ -1962,7 +1962,7 @@ export default {
 	},
 	exdi_staspimelra: {
 		name: 'Exdi Staspimelra',
-		bp: 13,
+		bp: 14,
 		hp: 10,
 		pp: 3,
 		mel_pot: 4,
@@ -1971,7 +1971,7 @@ export default {
 	},
 	exdi_staspimeltech: {
 		name: 'Exdi Staspimeltech',
-		bp: 13,
+		bp: 14,
 		hp: 10,
 		pp: 3,
 		mel_pot: 4,
@@ -1980,7 +1980,7 @@ export default {
 	},
 	exdi_staspiratech: {
 		name: 'Exdi Staspiratech',
-		bp: 13,
+		bp: 14,
 		hp: 10,
 		pp: 3,
 		rng_pot: 4,
@@ -1997,7 +1997,7 @@ export default {
 	},
 	exdi_wardmelra: {
 		name: 'Exdi Wardmelra',
-		bp: 13,
+		bp: 14,
 		mel_pot: 4,
 		rng_pot: 4,
 		pot_floor: 1.5,
@@ -2005,7 +2005,7 @@ export default {
 	},
 	exdi_wardmeltech: {
 		name: 'Exdi Wardmeltech',
-		bp: 13,
+		bp: 14,
 		mel_pot: 4,
 		tec_pot: 4,
 		pot_floor: 1.5,
@@ -2013,7 +2013,7 @@ export default {
 	},
 	exdi_wardratech: {
 		name: 'Exdi Wardratech',
-		bp: 13,
+		bp: 14,
 		rng_pot: 4,
 		tec_pot: 4,
 		pot_floor: 1.5,
@@ -2641,9 +2641,9 @@ export default {
 	},
 	highael_domina: {
 		name: 'Highael Domina',
-		bp: 12,
+		bp: 13,
 		hp: 10,
-		pp: 3,
+		pp: 4,
 		mel_pot: 3,
 		rng_pot: 3,
 		tec_pot: 3,
@@ -2651,9 +2651,9 @@ export default {
 	},
 	highael_domina_lc: {
 		name: 'Highael Domina LC',
-		bp: 11,
+		bp: 12,
 		hp: 10,
-		pp: 3,
+		pp: 4,
 		mel_pot: 2.75,
 		rng_pot: 2.75,
 		tec_pot: 2.75,
@@ -2661,9 +2661,9 @@ export default {
 	},
 	highael_domina_s: {
 		name: 'Highael Domina S',
-		bp: 12,
+		bp: 13,
 		hp: 10,
-		pp: 3,
+		pp: 4,
 		mel_pot: 3,
 		rng_pot: 3,
 		tec_pot: 3,
@@ -3469,7 +3469,7 @@ export default {
 		seasonal_drop: 25,
 	},
 	sezun_automfevre__23: {
-		name: 'Sezun Automfevre \'23',
+		name: "Sezun Automfevre '23",
 		bp: 10,
 		seasonal_pot: 20,
 		seasonal_crit: 35,
@@ -3552,27 +3552,27 @@ export default {
 	},
 	sovereign_ward_ii: {
 		name: 'Sovereign Ward II',
-		bp: 8,
+		bp: 7,
 		all_resist: 25,
 	},
 	sovereign_ward_ii_s: {
 		name: 'Sovereign Ward II S',
-		bp: 8,
+		bp: 7,
 		all_resist: 25,
 	},
 	sovereign_ward_iii: {
 		name: 'Sovereign Ward III',
-		bp: 10,
+		bp: 8,
 		all_resist: 30,
 	},
 	sovereign_ward_iv: {
 		name: 'Sovereign Ward IV',
-		bp: 12,
+		bp: 9,
 		all_resist: 35,
 	},
 	sovereign_ward_v: {
 		name: 'Sovereign Ward V',
-		bp: 14,
+		bp: 10,
 		all_resist: 40,
 	},
 	spi_might: {
