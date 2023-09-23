@@ -27,12 +27,11 @@ const observer = new MutationObserver((mutations) => {
 
 if (document.readyState === 'complete') {
 	initialize();
-}
-else {
+} else {
 	document.addEventListener('DOMContentLoaded', initialize, { once: true });
 }
 
-function initialize () {
+function initialize() {
 	const root = document.body;
 
 	observer.observe(root, {
@@ -46,13 +45,13 @@ function initialize () {
 	}
 }
 
-function bindActions (node) {
+function bindActions(node) {
 	if (!node.hasAttribute(ATTR)) {
 		return;
 	}
 
 	const actions = node.getAttribute(ATTR).split(/\s+/);
-	const binds = node.$binds = {};
+	const binds = (node.$binds = {});
 
 	for (const action of actions) {
 		const eventSep = action.lastIndexOf(':');
@@ -74,7 +73,10 @@ function bindActions (node) {
 
 		if (!target) {
 			if (DEV) {
-				console.warn(`cannot bind ${event} event to ${tag}#${method} because ${tag} is not in the ancestor tree`, node);
+				console.warn(
+					`cannot bind ${event} event to ${tag}#${method} because ${tag} is not in the ancestor tree`,
+					node,
+				);
 			}
 
 			continue;
@@ -101,7 +103,7 @@ function bindActions (node) {
 	}
 }
 
-function handleEvent (event) {
+function handleEvent(event) {
 	const node = event.currentTarget;
 	const binds = node.$binds;
 
@@ -133,8 +135,7 @@ function handleEvent (event) {
 
 		if (target[method]) {
 			target[method](event);
-		}
-		else if (DEV) {
+		} else if (DEV) {
 			console.warn(
 				`cannot fire ${event.type} event for ${target.localName}#${method} because it does not exist.`,
 				node,
@@ -145,7 +146,7 @@ function handleEvent (event) {
 	}
 }
 
-function createEvent (target, method) {
+function createEvent(target, method) {
 	return {
 		target,
 		method,

@@ -32,7 +32,7 @@ class AppElement extends HTMLElement {
 	/** @type {string[]} */
 	augments;
 
-	connectedCallback () {
+	connectedCallback() {
 		const searchParams = new URLSearchParams(location.search);
 		const augments = searchParams.get('augments')?.split(',') || [];
 
@@ -44,7 +44,7 @@ class AppElement extends HTMLElement {
 		this._initializeSearch();
 	}
 
-	calculate () {
+	calculate() {
 		const augments = this.augments;
 
 		const { scores, unknowns } = calculateStats(augments);
@@ -60,8 +60,7 @@ class AppElement extends HTMLElement {
 
 			if (exponentials.has(key)) {
 				formatted = rounddown(score, 3).toFixed(3);
-			}
-			else if ((/pot|resist|crit|drop/).test(key)) {
+			} else if (/pot|resist|crit|drop/.test(key)) {
 				formatted = rounddown(score, 2).toFixed(2) + '%';
 			}
 
@@ -116,7 +115,7 @@ class AppElement extends HTMLElement {
 	/**
 	 * @param {PointerEvent} event
 	 */
-	handleAugmentClick (event) {
+	handleAugmentClick(event) {
 		const target = event.target;
 		const value = target.dataset.value;
 
@@ -133,7 +132,7 @@ class AppElement extends HTMLElement {
 		}
 	}
 
-	handleAugmentKeydown (event) {
+	handleAugmentKeydown(event) {
 		const key = event.key;
 
 		const isEnter = key === 'Enter';
@@ -146,7 +145,7 @@ class AppElement extends HTMLElement {
 	/**
 	 * @param {KeyboardEvent} event
 	 */
-	handleSearchKeydown (event) {
+	handleSearchKeydown(event) {
 		const target = event.currentTarget;
 		const key = event.key;
 
@@ -161,14 +160,12 @@ class AppElement extends HTMLElement {
 		if (isEscape) {
 			const parent = target.parentNode;
 			parent.classList.add('escaped');
-		}
-		else if (isEnter) {
+		} else if (isEnter) {
 			if (index > -1) {
 				const option = results[index];
 				option.click();
 			}
-		}
-		else if (isArrowUp || isArrowDown) {
+		} else if (isArrowUp || isArrowDown) {
 			event.preventDefault();
 
 			const length = results.length;
@@ -178,8 +175,7 @@ class AppElement extends HTMLElement {
 
 			if (nextIndex < 0) {
 				nextIndex = length - 1;
-			}
-			else if (nextIndex >= length) {
+			} else if (nextIndex >= length) {
 				nextIndex = length ? 0 : -1;
 			}
 
@@ -201,7 +197,7 @@ class AppElement extends HTMLElement {
 	/**
 	 * @param {KeyboardEvent} event
 	 */
-	handleSearchInput (event) {
+	handleSearchInput(event) {
 		const dirty = this.searchDirty;
 
 		const target = event.target;
@@ -215,9 +211,8 @@ class AppElement extends HTMLElement {
 		}
 
 		const container = this.autocompleteContainer;
-		const nodes = (!dirty && prevQuery && nextQuery.startsWith(prevQuery))
-			? this.searchResults
-			: container.childNodes;
+		const nodes =
+			!dirty && prevQuery && nextQuery.startsWith(prevQuery) ? this.searchResults : container.childNodes;
 
 		const results = [];
 
@@ -227,7 +222,8 @@ class AppElement extends HTMLElement {
 			const option = nodes[idx];
 			const dataset = option.dataset;
 
-			const match = nextQuery &&
+			const match =
+				nextQuery &&
 				!this.augments.includes(dataset.value) &&
 				option.textContent.toLowerCase().includes(nextQuery);
 
@@ -254,7 +250,7 @@ class AppElement extends HTMLElement {
 	/**
 	 * @param {FocusEvent} event
 	 */
-	handleSearchFocusIn (event) {
+	handleSearchFocusIn(event) {
 		const target = event.currentTarget;
 		target.classList.remove('escaped');
 
@@ -267,7 +263,7 @@ class AppElement extends HTMLElement {
 	/**
 	 * @param {PointerEvent} event
 	 */
-	handleSearchItemClick (event) {
+	handleSearchItemClick(event) {
 		const target = event.target;
 		const value = target.dataset.value;
 
@@ -282,7 +278,7 @@ class AppElement extends HTMLElement {
 		if (index !== -1) {
 			results.splice(index, 1);
 
-			if (isEmpty = !results.length) {
+			if ((isEmpty = !results.length)) {
 				this.autocompleteContainer.classList.add('empty');
 			}
 		}
@@ -308,7 +304,7 @@ class AppElement extends HTMLElement {
 		this.calculate();
 	}
 
-	_initializeSearch () {
+	_initializeSearch() {
 		if (this.searchInitialized) {
 			return;
 		}
@@ -335,7 +331,7 @@ class AppElement extends HTMLElement {
 		}
 	}
 
-	_replaceUrl () {
+	_replaceUrl() {
 		const joined = this.augments.join(',');
 
 		history.replaceState(null, '', joined ? `?augments=${joined}` : '?');
@@ -344,7 +340,7 @@ class AppElement extends HTMLElement {
 
 customElements.define('x-app', AppElement);
 
-function calculateStats (augments) {
+function calculateStats(augments) {
 	const scores = createStatsObject(0);
 	const unknowns = createStatsObject(false);
 
@@ -368,11 +364,9 @@ function calculateStats (augments) {
 
 			if (value === '?') {
 				unknowns[key] = true;
-			}
-			else if (exponentials.has(key)) {
-				scores[key] = (scores[key] || 1) * (1 + (value / 100));
-			}
-			else {
+			} else if (exponentials.has(key)) {
+				scores[key] = (scores[key] || 1) * (1 + value / 100);
+			} else {
 				scores[key] += value;
 			}
 		}
@@ -381,7 +375,7 @@ function calculateStats (augments) {
 	return { scores, unknowns };
 }
 
-function createStatsObject (default_value) {
+function createStatsObject(default_value) {
 	return {
 		bp: default_value,
 		hp: default_value,
@@ -415,7 +409,7 @@ function createStatsObject (default_value) {
 	};
 }
 
-function rounddown (value, decimals) {
+function rounddown(value, decimals) {
 	const pow = 10 ** decimals;
 	return Math.floor((value + Number.EPSILON) * pow) / pow;
 }

@@ -13,14 +13,12 @@ await esbuild.build({
 	bundle: true,
 	splitting: true,
 	define: {
-		'DEV': false,
+		DEV: false,
 	},
-	plugins: [
-		...config.plugins || [],
-	],
+	plugins: [...(config.plugins || [])],
 
 	define: {
-		'DEV': 'false',
-		'COMMIT_HASH': `"${COMMIT_HASH.slice(0, 6)}"`,
+		DEV: 'false',
+		COMMIT_HASH: `"${COMMIT_HASH.slice(0, 6)}"`,
 	},
 });

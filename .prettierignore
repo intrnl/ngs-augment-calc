@@ -2,4 +2,6 @@ dist/
 deploy/
 node_modules/
 
+/src/data.js
+
 pnpm-lock.yaml

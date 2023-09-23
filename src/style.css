@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
@@ -17,7 +19,12 @@ body {
 	padding: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0;
 }
 
@@ -33,7 +40,8 @@ label > span {
 	flex-grow: 1;
 }
 
-input, button {
+input,
+button {
 	font: inherit;
 	line-height: inherit;
 	padding: 8px;
@@ -161,7 +169,9 @@ a:hover {
 	list-style-type: none;
 	color: FieldText;
 	background-color: Field;
-	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	box-shadow:
+		0 4px 6px -1px rgb(0 0 0 / 0.1),
+		0 2px 4px -2px rgb(0 0 0 / 0.1);
 	display: none;
 	width: 100%;
 	max-height: 50vh;

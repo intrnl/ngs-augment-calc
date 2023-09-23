@@ -14,8 +14,7 @@ const printServerInfo = ({ host, port }) => {
 	if (host === '127.0.0.1') {
 		console.info(`> local: http://${host}:${port}`);
 		console.info(`> network: not exposed`);
-	}
-	else {
+	} else {
 		const mapping = os.networkInterfaces();
 
 		for (const intrf in mapping) {
@@ -47,12 +46,10 @@ const context = await esbuild.context({
 	splitting: true,
 	sourcemap: true,
 	define: {
-		'DEV': 'true',
-		'COMMIT_HASH': '"DEV"',
+		DEV: 'true',
+		COMMIT_HASH: '"DEV"',
 	},
-	plugins: [
-		...config.plugins || [],
-	],
+	plugins: [...(config.plugins || [])],
 });
 
 const internal = await context.serve({

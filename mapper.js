@@ -51,7 +51,7 @@ for (const augment of json) {
 const result = json5.stringify(mapped, null, '\t');
 await fs.writeFile('./src/data.js', `export default ${result};\n`);
 
-function convert (nstr) {
+function convert(nstr) {
 	if (!nstr) {
 		return undefined;
 	}
