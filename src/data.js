@@ -77,264 +77,6 @@ export default {
 		tec_pot: 2.5,
 		pot_floor: 2.5,
 	},
-	addi_degolstamel: {
-		name: 'Addi Degolstamel',
-		bp: 10,
-		hp: 20,
-		mel_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstamel_s: {
-		name: 'Addi Degolstamel S',
-		bp: 10,
-		hp: 20,
-		mel_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstara: {
-		name: 'Addi Degolstara',
-		bp: 10,
-		hp: 20,
-		rng_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstara_s: {
-		name: 'Addi Degolstara S',
-		bp: 10,
-		hp: 20,
-		rng_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstatech: {
-		name: 'Addi Degolstatech',
-		bp: 10,
-		hp: 20,
-		tec_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstatech_s: {
-		name: 'Addi Degolstatech S',
-		bp: 10,
-		hp: 20,
-		tec_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstaspimel: {
-		name: 'Addi Degolstaspimel',
-		bp: 10,
-		hp: 10,
-		pp: 3,
-		mel_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstaspimel_s: {
-		name: 'Addi Degolstaspimel S',
-		bp: 10,
-		hp: 10,
-		pp: 3,
-		mel_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstaspira: {
-		name: 'Addi Degolstaspira',
-		bp: 10,
-		hp: 10,
-		pp: 3,
-		rng_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstaspira_s: {
-		name: 'Addi Degolstaspira S',
-		bp: 10,
-		hp: 10,
-		pp: 3,
-		rng_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstaspitech: {
-		name: 'Addi Degolstaspitech',
-		bp: 10,
-		hp: 10,
-		pp: 3,
-		tec_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolstaspitech_s: {
-		name: 'Addi Degolstaspitech S',
-		bp: 10,
-		hp: 10,
-		pp: 3,
-		tec_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolspimel: {
-		name: 'Addi Degolspimel',
-		bp: 10,
-		pp: 6,
-		mel_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolspimel_s: {
-		name: 'Addi Degolspimel S',
-		bp: 10,
-		pp: 6,
-		mel_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolspira: {
-		name: 'Addi Degolspira',
-		bp: 10,
-		pp: 6,
-		rng_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolspira_s: {
-		name: 'Addi Degolspira S',
-		bp: 10,
-		pp: 6,
-		rng_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolspitech: {
-		name: 'Addi Degolspitech',
-		bp: 10,
-		pp: 6,
-		tec_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolspitech_s: {
-		name: 'Addi Degolspitech S',
-		bp: 10,
-		pp: 6,
-		tec_pot: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degoldeftmel: {
-		name: 'Addi Degoldeftmel',
-		bp: 10,
-		mel_pot: 2.5,
-		pot_floor: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degoldeftmel_s: {
-		name: 'Addi Degoldeftmel S',
-		bp: 10,
-		mel_pot: 2.5,
-		pot_floor: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degoldeftra: {
-		name: 'Addi Degoldeftra',
-		bp: 10,
-		rng_pot: 2.5,
-		pot_floor: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degoldeftra_s: {
-		name: 'Addi Degoldeftra S',
-		bp: 10,
-		rng_pot: 2.5,
-		pot_floor: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degoldefttech: {
-		name: 'Addi Degoldefttech',
-		bp: 10,
-		tec_pot: 2.5,
-		pot_floor: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degoldefttech_s: {
-		name: 'Addi Degoldefttech S',
-		bp: 10,
-		tec_pot: 2.5,
-		pot_floor: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolguamel: {
-		name: 'Addi Degolguamel',
-		bp: 10,
-		mel_pot: 2.5,
-		dmg_resist: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolguamel_s: {
-		name: 'Addi Degolguamel S',
-		bp: 10,
-		mel_pot: 2.5,
-		dmg_resist: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolguara: {
-		name: 'Addi Degolguara',
-		bp: 10,
-		rng_pot: 2.5,
-		dmg_resist: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolguara_s: {
-		name: 'Addi Degolguara S',
-		bp: 10,
-		rng_pot: 2.5,
-		dmg_resist: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolguatech: {
-		name: 'Addi Degolguatech',
-		bp: 10,
-		tec_pot: 2.5,
-		dmg_resist: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolguatech_s: {
-		name: 'Addi Degolguatech S',
-		bp: 10,
-		tec_pot: 2.5,
-		dmg_resist: 2.5,
-		low_temp_resist: 25,
-	},
-	addi_degolwardmel: {
-		name: 'Addi Degolwardmel',
-		bp: 10,
-		mel_pot: 2.5,
-		all_resist: 20,
-		low_temp_resist: 25,
-	},
-	addi_degolwardmel_s: {
-		name: 'Addi Degolwardmel S',
-		bp: 10,
-		mel_pot: 2.5,
-		all_resist: 20,
-		low_temp_resist: 25,
-	},
-	addi_degolwardra: {
-		name: 'Addi Degolwardra',
-		bp: 10,
-		rng_pot: 2.5,
-		all_resist: 20,
-		low_temp_resist: 25,
-	},
-	addi_degolwardra_s: {
-		name: 'Addi Degolwardra S',
-		bp: 10,
-		rng_pot: 2.5,
-		all_resist: 20,
-		low_temp_resist: 25,
-	},
-	addi_degolwardtech: {
-		name: 'Addi Degolwardtech',
-		bp: 10,
-		tec_pot: 2.5,
-		all_resist: 20,
-		low_temp_resist: 25,
-	},
-	addi_degolwardtech_s: {
-		name: 'Addi Degolwardtech S',
-		bp: 10,
-		tec_pot: 2.5,
-		all_resist: 20,
-		low_temp_resist: 25,
-	},
 	addi_guamel: {
 		name: 'Addi Guamel',
 		bp: 10,
@@ -683,11 +425,6 @@ export default {
 		pp: 3,
 		tec_pot: 2.5,
 	},
-	addi_ward_i: {
-		name: 'Addi Ward I',
-		bp: 10,
-		all_resist: 25,
-	},
 	addi_wardmel: {
 		name: 'Addi Wardmel',
 		bp: 10,
@@ -781,10 +518,6 @@ export default {
 		rng_pot: 1.5,
 		tec_pot: 1.5,
 	},
-	ael_domina_ii: {
-		name: 'Ael Domina II',
-		bp: '?',
-	},
 	ael_note_a: {
 		name: 'Ael Note A',
 		bp: 5,
@@ -869,15 +602,6 @@ export default {
 		mel_pot: 3,
 		rng_pot: 3,
 		tec_pot: 3,
-	},
-	aegis_soul_v: {
-		name: 'Aegis Soul V',
-		bp: '?',
-		hp: 5,
-		pp: 2,
-		mel_pot: 4,
-		rng_pot: 4,
-		tec_pot: 4,
 	},
 	aglai_soul_h: {
 		name: 'Aglai Soul H',
@@ -968,16 +692,6 @@ export default {
 		pot_floor: 2.5,
 		dmg_resist: -1.5,
 	},
-	alts_secreta_v: {
-		name: 'Alts Secreta V',
-		bp: '?',
-		hp: -10,
-		mel_pot: 2.75,
-		rng_pot: 2.75,
-		tec_pot: 2.75,
-		pot_floor: 2.75,
-		dmg_resist: -1.5,
-	},
 	alts_soul_i: {
 		name: 'Alts Soul I',
 		bp: 5,
@@ -993,7 +707,7 @@ export default {
 	alts_soul_ii_s: {
 		name: 'Alts Soul II S',
 		bp: 7,
-		hp: 10,
+		hp: 1000,
 		dmg_resist: 2,
 	},
 	alts_soul_iii: {
@@ -1007,18 +721,6 @@ export default {
 		bp: 9,
 		hp: 15,
 		dmg_resist: 2.5,
-	},
-	alts_soul_iv: {
-		name: 'Alts Soul IV',
-		bp: '?',
-		hp: 15,
-		dmg_resist: 2.5,
-	},
-	alts_soul_v: {
-		name: 'Alts Soul V',
-		bp: '?',
-		hp: 20,
-		dmg_resist: 3.5,
 	},
 	ams_soul_i: {
 		name: 'Ams Soul I',
@@ -1069,13 +771,6 @@ export default {
 		pp: 3,
 		tec_pot: 3,
 	},
-	ams_soul_v: {
-		name: 'Ams Soul V',
-		bp: '?',
-		hp: 10,
-		pp: 3,
-		tec_pot: 4,
-	},
 	belgan_note: {
 		name: 'Belgan Note',
 		bp: 5,
@@ -1104,16 +799,6 @@ export default {
 		bp: 6,
 		blind_resist: 30,
 	},
-	blind_ward_iv: {
-		name: 'Blind Ward IV',
-		bp: 7,
-		blind_resist: 35,
-	},
-	blind_ward_v: {
-		name: 'Blind Ward V',
-		bp: 8,
-		blind_resist: 40,
-	},
 	burn_ward_i: {
 		name: 'Burn Ward I',
 		bp: 4,
@@ -1133,16 +818,6 @@ export default {
 		name: 'Burn Ward III S',
 		bp: 6,
 		burn_resist: 30,
-	},
-	burn_ward_iv: {
-		name: 'Burn Ward IV',
-		bp: 7,
-		burn_resist: 35,
-	},
-	burn_ward_v: {
-		name: 'Burn Ward V',
-		bp: 8,
-		burn_resist: 40,
 	},
 	crocys_soul_i: {
 		name: 'Crocys Soul I',
@@ -1193,13 +868,6 @@ export default {
 		pp: 3,
 		rng_pot: 3,
 	},
-	crocys_soul_v: {
-		name: 'Crocys Soul V',
-		bp: '?',
-		hp: 10,
-		pp: 3,
-		rng_pot: 4,
-	},
 	daityl_soul_i: {
 		name: 'Daityl Soul I',
 		bp: 7,
@@ -1241,12 +909,6 @@ export default {
 		bp: 11,
 		pp: 5,
 		mel_pot: 3,
-	},
-	daityl_soul_v: {
-		name: 'Daityl Soul V',
-		bp: '?',
-		pp: 5,
-		mel_pot: 4,
 	},
 	dark_exploit_i: {
 		name: 'Dark Exploit I',
@@ -1504,11 +1166,6 @@ export default {
 		bp: 6,
 		pot_floor: 3,
 	},
-	deftness_v: {
-		name: 'Deftness V',
-		bp: 7,
-		pot_floor: 4,
-	},
 	dexta_note: {
 		name: 'Dexta Note',
 		bp: 5,
@@ -1566,14 +1223,6 @@ export default {
 		rng_pot: 3,
 		all_resist: -10,
 	},
-	doldor_soul_v: {
-		name: 'Doldor Soul V',
-		bp: '?',
-		hp: 15,
-		pp: 5,
-		rng_pot: 4,
-		all_resist: -10,
-	},
 	dolz_soul_i: {
 		name: 'Dolz Soul I',
 		bp: 5,
@@ -1603,18 +1252,6 @@ export default {
 		bp: 7,
 		pp: 5,
 		pot_floor: 2.5,
-	},
-	dolz_soul_iv: {
-		name: 'Dolz Soul IV',
-		bp: '?',
-		pp: 5,
-		pot_floor: 3,
-	},
-	dolz_soul_v: {
-		name: 'Dolz Soul V',
-		bp: '?',
-		pp: 5,
-		pot_floor: 4,
 	},
 	dread_keeper_i: {
 		name: 'Dread Keeper I',
@@ -1658,11 +1295,11 @@ export default {
 	},
 	dread_keeper_v: {
 		name: 'Dread Keeper V',
-		bp: '?',
-		hp: 70,
-		pp: 15,
+		bp: 12,
+		hp: 60,
+		pp: 12,
 		pot_floor: 8,
-		dmg_resist: 4,
+		dmg_resist: 3.5,
 	},
 	duela_fusia: {
 		name: 'Duela Fusia',
@@ -1712,12 +1349,6 @@ export default {
 		bp: 11,
 		hp: 15,
 		mel_pot: 3,
-	},
-	dust_soul_v: {
-		name: 'Dust Soul V',
-		bp: '?',
-		hp: 15,
-		mel_pot: 4,
 	},
 	endymio: {
 		name: 'Endymio',
@@ -1785,15 +1416,6 @@ export default {
 		mel_pot: 2.75,
 		rng_pot: 2.75,
 		tec_pot: 2.75,
-	},
-	eradi_soul_v: {
-		name: 'Eradi Soul V',
-		bp: '?',
-		hp: 10,
-		pp: 4,
-		mel_pot: 3.75,
-		rng_pot: 3.75,
-		tec_pot: 3.75,
 	},
 	esperio_i: {
 		name: 'Esperio I',
@@ -2071,12 +1693,6 @@ export default {
 		tec_pot: 2.5,
 		dmg_resist: 2.5,
 	},
-	forms_sand_soul_v: {
-		name: 'Forms Sand Soul V',
-		bp: '?',
-		tec_pot: 3,
-		dmg_resist: 2.5,
-	},
 	forms_soul_i: {
 		name: 'Forms Soul I',
 		bp: 6,
@@ -2110,12 +1726,6 @@ export default {
 		name: 'Forms Soul IV',
 		bp: 10,
 		mel_pot: 2.5,
-		dmg_resist: 2.5,
-	},
-	forms_soul_v: {
-		name: 'Forms Soul V',
-		bp: '?',
-		mel_pot: 3,
 		dmg_resist: 2.5,
 	},
 	forms_machini_soul_i: {
@@ -2153,12 +1763,6 @@ export default {
 		rng_pot: 2.5,
 		dmg_resist: 2.5,
 	},
-	forms_machini_soul_v: {
-		name: 'Forms Machini Soul V',
-		bp: '?',
-		rng_pot: 3,
-		dmg_resist: 2.5,
-	},
 	freeze_ward_i: {
 		name: 'Freeze Ward I',
 		bp: 4,
@@ -2178,16 +1782,6 @@ export default {
 		name: 'Freeze Ward III S',
 		bp: 6,
 		freeze_resist: 30,
-	},
-	freeze_ward_iv: {
-		name: 'Freeze Ward IV',
-		bp: 7,
-		freeze_resist: 35,
-	},
-	freeze_ward_v: {
-		name: 'Freeze Ward V',
-		bp: 8,
-		freeze_resist: 40,
 	},
 	freid_soul_i: {
 		name: 'Freid Soul I',
@@ -2235,14 +1829,6 @@ export default {
 		hp: 15,
 		pp: 5,
 		mel_pot: 3,
-		all_resist: -10,
-	},
-	freid_soul_v: {
-		name: 'Freid Soul V',
-		bp: '?',
-		hp: 15,
-		pp: 5,
-		mel_pot: 4,
 		all_resist: -10,
 	},
 	frostyl_soul_i: {
@@ -2294,13 +1880,6 @@ export default {
 		pp: 3,
 		mel_pot: 3,
 	},
-	frostyl_soul_v: {
-		name: 'Frostyl Soul V',
-		bp: '?',
-		hp: 10,
-		pp: 3,
-		mel_pot: 4,
-	},
 	gigas_aglai: {
 		name: 'Gigas Aglai',
 		bp: 11,
@@ -2325,6 +1904,14 @@ export default {
 	},
 	gigas_maste_lc: {
 		name: 'Gigas Maste LC',
+		bp: 11,
+		hp: 20,
+		mel_pot: 3.25,
+		rng_pot: 3.25,
+		tec_pot: 3.25,
+	},
+	gigas_maste_lcs: {
+		name: 'Gigas Maste LCS',
 		bp: 11,
 		hp: 20,
 		mel_pot: 3.25,
@@ -2381,12 +1968,6 @@ export default {
 		hp: 20,
 		mel_pot: 3,
 	},
-	gigas_might_v: {
-		name: 'Gigas Might V',
-		bp: '?',
-		hp: 25,
-		mel_pot: 4,
-	},
 	gigas_precision_i: {
 		name: 'Gigas Precision I',
 		bp: 6,
@@ -2428,12 +2009,6 @@ export default {
 		bp: 11,
 		hp: 20,
 		rng_pot: 3,
-	},
-	gigas_precision_v: {
-		name: 'Gigas Precision V',
-		bp: '?',
-		hp: 25,
-		rng_pot: 4,
 	},
 	gigas_technique_i: {
 		name: 'Gigas Technique I',
@@ -2477,12 +2052,6 @@ export default {
 		hp: 20,
 		tec_pot: 3,
 	},
-	gigas_technique_v: {
-		name: 'Gigas Technique V',
-		bp: '?',
-		hp: 25,
-		tec_pot: 4,
-	},
 	gigas_thali: {
 		name: 'Gigas Thali',
 		bp: 11,
@@ -2501,6 +2070,15 @@ export default {
 	},
 	gladia_soul_lc: {
 		name: 'Gladia Soul LC',
+		bp: 12,
+		hp: 20,
+		pp: 6,
+		mel_pot: 3.5,
+		rng_pot: 3.5,
+		tec_pot: 3.5,
+	},
+	gladia_soul_lcs: {
+		name: 'Gladia Soul LCS',
 		bp: 12,
 		hp: 20,
 		pp: 6,
@@ -2594,16 +2172,6 @@ export default {
 		bp: 4,
 		dmg_resist: 2,
 	},
-	guard_iv: {
-		name: 'Guard IV',
-		bp: 5,
-		dmg_resist: 3,
-	},
-	guard_v: {
-		name: 'Guard V',
-		bp: 6,
-		dmg_resist: 4,
-	},
 	halphinale: {
 		name: 'Halphinale',
 		bp: 13,
@@ -2622,6 +2190,15 @@ export default {
 		rng_pot: 3.75,
 		tec_pot: 3.75,
 	},
+	halphinale_lcs: {
+		name: 'Halphinale LCS',
+		bp: 12,
+		hp: 15,
+		pp: 5,
+		mel_pot: 3.75,
+		rng_pot: 3.75,
+		tec_pot: 3.75,
+	},
 	halphinale_s: {
 		name: 'Halphinale S',
 		bp: 13,
@@ -2631,13 +2208,13 @@ export default {
 		rng_pot: 4,
 		tec_pot: 4,
 	},
-	halphis_note: {
-		name: 'Halphis Note',
-		bp: '?',
-	},
 	hi_perio: {
 		name: 'Hi Perio',
 		exp_grind: 5000,
+	},
+	hi_perio_ii: {
+		name: 'Hi Perio II',
+		exp_grind: 1000,
 	},
 	highael_domina: {
 		name: 'Highael Domina',
@@ -2659,6 +2236,16 @@ export default {
 		tec_pot: 2.75,
 		pot_floor: 2,
 	},
+	highael_domina_lcs: {
+		name: 'Highael Domina LCS',
+		bp: 12,
+		hp: 10,
+		pp: 4,
+		mel_pot: 2.75,
+		rng_pot: 2.75,
+		tec_pot: 2.75,
+		pot_floor: 2,
+	},
 	highael_domina_s: {
 		name: 'Highael Domina S',
 		bp: 13,
@@ -2668,6 +2255,15 @@ export default {
 		rng_pot: 3,
 		tec_pot: 3,
 		pot_floor: 2,
+	},
+	highret_domina: {
+		name: 'Highret Domina',
+		bp: '?',
+		hp: 30,
+		mel_pot: 3,
+		rng_pot: 3,
+		tec_pot: 3,
+		pot_floor: 2.25,
 	},
 	ice_exploit_i: {
 		name: 'Ice Exploit I',
@@ -2723,10 +2319,6 @@ export default {
 		rng_pot: 2,
 		tec_pot: 2,
 		dmg_resist: -2,
-	},
-	kvar_domina_ii: {
-		name: 'Kvar Domina II',
-		bp: '?',
 	},
 	lab_note: {
 		name: 'Lab Note',
@@ -2844,14 +2436,14 @@ export default {
 		pot_floor: 2.5,
 		dmg_resist: 2.5,
 	},
-	mastery_v: {
-		name: 'Mastery V',
-		bp: '?',
-		mel_pot: 3.5,
-		rng_pot: 3.5,
-		tec_pot: 3.5,
-		pot_floor: 3.5,
-		dmg_resist: 3.5,
+	mastery_lcs: {
+		name: 'Mastery LCS',
+		bp: 11,
+		mel_pot: 2.25,
+		rng_pot: 2.25,
+		tec_pot: 2.25,
+		pot_floor: 2.5,
+		dmg_resist: 2.5,
 	},
 	megas_fusia: {
 		name: 'Megas Fusia',
@@ -2896,12 +2488,6 @@ export default {
 		mel_pot: 2.75,
 		rng_pot: 2.75,
 	},
-	melra_dualble_v: {
-		name: 'Melra Dualble V',
-		bp: '?',
-		mel_pot: 3.75,
-		rng_pot: 3.75,
-	},
 	meltech_dualble_i: {
 		name: 'Meltech Dualble I',
 		bp: 4,
@@ -2938,12 +2524,6 @@ export default {
 		mel_pot: 2.75,
 		tec_pot: 2.75,
 	},
-	meltech_dualble_v: {
-		name: 'Meltech Dualble V',
-		bp: '?',
-		mel_pot: 3.75,
-		tec_pot: 3.75,
-	},
 	might_i: {
 		name: 'Might I',
 		bp: 4,
@@ -2978,11 +2558,6 @@ export default {
 		name: 'Might IV S',
 		bp: 7,
 		mel_pot: 3,
-	},
-	might_v: {
-		name: 'Might V',
-		bp: 8,
-		mel_pot: 4,
 	},
 	nex_soul_i: {
 		name: 'Nex Soul I',
@@ -3025,12 +2600,6 @@ export default {
 		bp: 11,
 		pp: 5,
 		tec_pot: 3,
-	},
-	nex_soul_v: {
-		name: 'Nex Soul V',
-		bp: '?',
-		pp: 5,
-		tec_pot: 4,
 	},
 	nighttime_exploit_i: {
 		name: 'Nighttime Exploit I',
@@ -3085,14 +2654,6 @@ export default {
 		tec_pot: 3,
 		all_resist: -10,
 	},
-	nils_soul_v: {
-		name: 'Nils Soul V',
-		bp: '?',
-		hp: 15,
-		pp: 5,
-		tec_pot: 4,
-		all_resist: -10,
-	},
 	noizel_note: {
 		name: 'Noizel Note',
 		bp: 5,
@@ -3122,16 +2683,6 @@ export default {
 		bp: 6,
 		pain_resist: 30,
 	},
-	pain_ward_iv: {
-		name: 'Pain Ward IV',
-		bp: 7,
-		pain_resist: 35,
-	},
-	pain_ward_v: {
-		name: 'Pain Ward V',
-		bp: 8,
-		pain_resist: 40,
-	},
 	panic_ward_i: {
 		name: 'Panic Ward I',
 		bp: 4,
@@ -3151,16 +2702,6 @@ export default {
 		name: 'Panic Ward III S',
 		bp: 6,
 		panic_resist: 30,
-	},
-	panic_ward_iv: {
-		name: 'Panic Ward IV',
-		bp: 7,
-		panic_resist: 35,
-	},
-	panic_ward_v: {
-		name: 'Panic Ward V',
-		bp: 8,
-		panic_resist: 40,
 	},
 	pettas_soul_i: {
 		name: 'Pettas Soul I',
@@ -3204,12 +2745,6 @@ export default {
 		pp: 5,
 		rng_pot: 3,
 	},
-	pettas_soul_v: {
-		name: 'Pettas Soul V',
-		bp: '?',
-		pp: 5,
-		rng_pot: 4,
-	},
 	poison_ward_i: {
 		name: 'Poison Ward I',
 		bp: 4,
@@ -3229,16 +2764,6 @@ export default {
 		name: 'Poison Ward III S',
 		bp: 6,
 		poison_resist: 30,
-	},
-	poison_ward_iv: {
-		name: 'Poison Ward IV',
-		bp: 7,
-		poison_resist: 35,
-	},
-	poison_ward_v: {
-		name: 'Poison Ward V',
-		bp: 8,
-		poison_resist: 40,
 	},
 	precision_i: {
 		name: 'Precision I',
@@ -3274,11 +2799,6 @@ export default {
 		name: 'Precision IV S',
 		bp: 7,
 		rng_pot: 3,
-	},
-	precision_v: {
-		name: 'Precision V',
-		bp: 8,
-		rng_pot: 4,
 	},
 	ragras_soul_i: {
 		name: 'Ragras Soul I',
@@ -3322,12 +2842,6 @@ export default {
 		hp: 15,
 		rng_pot: 3,
 	},
-	ragras_soul_v: {
-		name: 'Ragras Soul V',
-		bp: '?',
-		hp: 15,
-		rng_pot: 4,
-	},
 	ratech_dualble_i: {
 		name: 'Ratech Dualble I',
 		bp: 4,
@@ -3363,12 +2877,6 @@ export default {
 		bp: 7,
 		rng_pot: 2.75,
 		tec_pot: 2.75,
-	},
-	ratech_dualble_v: {
-		name: 'Ratech Dualble V',
-		bp: '?',
-		rng_pot: 3.75,
-		tec_pot: 3.75,
 	},
 	renus_soul_i: {
 		name: 'Renus Soul I',
@@ -3412,12 +2920,6 @@ export default {
 		hp: 15,
 		tec_pot: 3,
 	},
-	renus_soul_v: {
-		name: 'Renus Soul V',
-		bp: '?',
-		hp: 15,
-		tec_pot: 4,
-	},
 	resola_note: {
 		name: 'Resola Note',
 		bp: 5,
@@ -3430,10 +2932,6 @@ export default {
 		mel_pot: 1.5,
 		rng_pot: 1.5,
 		tec_pot: 1.5,
-	},
-	ret_domina_ii: {
-		name: 'Ret Domina II',
-		bp: '?',
 	},
 	ret_note_a: {
 		name: 'Ret Note A',
@@ -3460,6 +2958,13 @@ export default {
 		hp: 5,
 		rng_pot: 0.75,
 		tec_pot: 0.75,
+	},
+	ret_sovern: {
+		name: 'Ret Sovern',
+		bp: 4,
+		mel_pot: 1,
+		rng_pot: 1,
+		tec_pot: 1,
 	},
 	sezun_automfevre: {
 		name: 'Sezun Automfevre',
@@ -3530,16 +3035,6 @@ export default {
 		bp: 6,
 		shock_resist: 30,
 	},
-	shock_ward_iv: {
-		name: 'Shock Ward IV',
-		bp: 7,
-		shock_resist: 35,
-	},
-	shock_ward_v: {
-		name: 'Shock Ward V',
-		bp: 8,
-		shock_resist: 40,
-	},
 	sovereign_ward_i: {
 		name: 'Sovereign Ward I',
 		bp: 6,
@@ -3564,16 +3059,6 @@ export default {
 		name: 'Sovereign Ward III',
 		bp: 8,
 		all_resist: 30,
-	},
-	sovereign_ward_iv: {
-		name: 'Sovereign Ward IV',
-		bp: 9,
-		all_resist: 35,
-	},
-	sovereign_ward_v: {
-		name: 'Sovereign Ward V',
-		bp: 10,
-		all_resist: 40,
 	},
 	spi_might: {
 		name: 'Spi Might',
@@ -3652,16 +3137,6 @@ export default {
 		bp: 4,
 		pp: 5,
 	},
-	spirit_iv: {
-		name: 'Spirit IV',
-		bp: 5,
-		pp: 6,
-	},
-	spirit_v: {
-		name: 'Spirit V',
-		bp: 6,
-		pp: 7,
-	},
 	sta_might: {
 		name: 'Sta Might',
 		bp: 8,
@@ -3739,16 +3214,6 @@ export default {
 		bp: 5,
 		hp: 15,
 	},
-	stamina_iv: {
-		name: 'Stamina IV',
-		bp: 6,
-		hp: 20,
-	},
-	stamina_v: {
-		name: 'Stamina V',
-		bp: 7,
-		hp: 25,
-	},
 	starl_soul: {
 		name: 'Starl Soul',
 		bp: 11,
@@ -3763,14 +3228,6 @@ export default {
 		rng_pot: 3,
 		tec_pot: 3,
 		dmg_resist: -2,
-	},
-	stira_domina_ii: {
-		name: 'Stira Domina II',
-		bp: '?',
-		mel_pot: 4,
-		rng_pot: 4,
-		tec_pot: 4,
-		all_resist: -20,
 	},
 	stira_note_a: {
 		name: 'Stira Note A',
@@ -3935,11 +3392,6 @@ export default {
 		name: 'Technique IV S',
 		bp: 7,
 		tec_pot: 3,
-	},
-	technique_v: {
-		name: 'Technique V',
-		bp: 8,
-		tec_pot: 4,
 	},
 	thali_soul_h: {
 		name: 'Thali Soul H',
@@ -4198,14 +3650,6 @@ export default {
 		mel_pot: 2.75,
 		rng_pot: 2.75,
 		tec_pot: 2.75,
-	},
-	vardi_soul_v: {
-		name: 'Vardi Soul V',
-		bp: '?',
-		hp: 25,
-		mel_pot: 3.75,
-		rng_pot: 3.75,
-		tec_pot: 3.75,
 	},
 	wind_exploit_i: {
 		name: 'Wind Exploit I',

@@ -3,7 +3,7 @@ import { query } from './lib/x-controller.js';
 
 import './style.css';
 
-// data ver 11.71
+// data ver 12.01
 // https://docs.google.com/spreadsheets/d/1ShT8I1wj9mGh-hGXqF0j9tvUU_jkYLvGd4gPZjNzRpo/edit?usp=sharing
 const { default: data } = await import('./data.js');
 const { default: commitHash } = await import('./commithash.js');
